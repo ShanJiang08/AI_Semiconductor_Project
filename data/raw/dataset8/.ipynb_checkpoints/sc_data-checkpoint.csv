@@ -1,0 +1,154 @@
+rank,name,ticker,market_cap_04_08_2025,price_04_08_2025,country
+1,NVIDIA,NVDA,4236614041600,173.72,United States
+2,Broadcom,AVGO,1357609697280,288.64,United States
+3,TSMC,TSM,1219921444864,235.21,Taiwan
+4,Samsung,005930.KS,326234945517,49.5673,South Korea
+5,AMD,AMD,278314942464,171.651,United States
+6,ASML,ASML,271237234688,689.82,Netherlands
+7,Texas Instruments,TXN,164426530816,180.86,United States
+8,QUALCOMM,QCOM,159897026560,148.19,United States
+9,Arm Holdings,ARM,145732993024,137.58,United Kingdom
+10,Applied Materials,AMAT,144441622528,179.99,United States
+11,SK Hynix,000660.KS,128056759188,185.497,South Korea
+12,Lam Research,LRCX,122268475392,96.37,United States
+13,Micron Technology,MU,117374353408,104.88,United States
+14,KLA,KLAC,117250162688,886.64,United States
+15,Synopsys,SNPS,114477473792,618.65,United States
+16,Analog Devices,ADI,110023147520,221.71,United States
+17,Intel,INTC,84519870464,19.31,United States
+18,MediaTek,2454.TW,72108276513,45.2413,Taiwan
+19,Tokyo Electron,8035.T,69418586488,151.533,Japan
+20,Marvell Technology,MRVL,64190787584,74.45,United States
+21,SMIC,0981.HK,62621601565,6.37596,China
+22,NXP Semiconductors,NXPI,52923981824,209.92,Netherlands
+23,Infineon,IFX.DE,50627527513,38.9625,Germany
+24,Advantest,6857.T,50555941713,69.0875,Japan
+25,Cambricon Technologies,688256.SS,39975179794,95.5544,China
+26,Monolithic Power Systems,MPWR,37615484928,785.62,United States
+27,Microchip Technology,MCHP,35812835328,66.36,United States
+28,NAURA Technology Group,002371.SZ,33000258919,45.7319,China
+29,Disco Corp.,6146.T,32193915801,296.978,Japan
+30,ASM International,ASM.AS,24577196726,480.115,Netherlands
+31,ON Semiconductor,ON,23744225280,56.82,United States
+32,ASE Group,ASX,23406282752,10.01,Taiwan
+33,STMicroelectronics,STM,23347775488,25.06,Switzerland
+34,Renesas Electronics,6723.T,22336916145,12.431,Japan
+35,Astera Labs,ALAB,21620619264,131.1,United States
+36,GlobalFoundries,GFS,20298754048,36.58,United States
+37,Credo Technology,CRDO,18461812736,107.56,United States
+38,United Microelectronics,UMC,17397235712,6.81,Taiwan
+39,AMEC,688012.SS,16714623642,26.6945,China
+40,Coherent Corp.,COHR,15977779200,102.79,United States
+41,Entegris,ENTG,11454924800,75.66,United States
+42,BE Semiconductor,BESI.AS,10973708009,135.043,Netherlands
+43,GigaDevice Semiconductor,603986.SS,10802146668,16.2668,China
+44,Alchip Technologies,3661.TW,10554092866,130.529,Taiwan
+45,Skyworks Solutions,SWKS,10162232320,67.69,United States
+46,MACOM,MTSI,10140196864,136.31,United States
+47,Novatek Microelectronics,3034.TW,9666041636,15.8847,Taiwan
+48,Realtek,2379.TW,9452903587,18.4316,Taiwan
+49,Lite-On Technology,2301.TW,9151832764,4.07172,Taiwan
+50,Lasertec,6920.T,8918025914,98.88,Japan
+51,San’an Optoelectronics,600703.SS,8772086640,1.75828,China
+52,China Resources Microelectronics,688396.SS,8642677778,6.51034,China
+53,Qorvo,QRVO,7793153536,84.11,United States
+54,Nova Measuring Instruments,NVMI,7748396032,263.55,Israel
+55,SCREEN Holdings,7735.T,7307228402,77.3726,Japan
+56,National Silicon Industry Group,688126.SS,7035943984,2.56115,China
+57,VeriSilicon Microelectronics,688521.SS,6888155489,13.1025,China
+58,Lattice Semiconductor,LSCC,6736517120,48.99,United States
+59,SG Micro,300661.SZ,6420108131,10.3902,China
+60,Silan Microelectronics,600460.SS,6022550871,3.61917,China
+61,Vanguard International Semiconductor,5347.TWO,5938850766,3.18029,Taiwan
+62,HANMI Semiconductor,042700.KS,5919532218,62.4074,South Korea
+63,Allegro MicroSystems,ALGM,5780755456,31.26,United States
+64,Global Unichip Corp.,3443.TW,5636186566,42.0576,Taiwan
+65,GlobalWafers,6488.TWO,5543815178,11.5952,Taiwan
+66,Galaxycore,688728.SS,5542607870,2.13129,China
+67,Bestechnic,688608.SS,5528348886,32.9192,China
+68,Technoprobe,TPRO.MI,5410874976,8.16138,Italy
+69,Amkor Technology,AMKR,5375360512,21.75,United States
+70,SmartSens Technology,688213.SS,5351503986,13.3174,China
+71,Hwatsing Technology,688120.SS,5321144728,15.0968,China
+72,Cirrus Logic,CRUS,5236540928,102.08,United States
+73,eMemory Technology,3529.TWO,5154556267,69.0349,Taiwan
+74,Tower Semiconductor,TSEM,5132180992,44.67,Israel
+75,Rohm,6963.T,5013477310,12.989,Japan
+76,SiTime,SITM,4968997376,193.09,United States
+77,Kokusai Electric,6525.T,4932663644,21.1422,Japan
+78,Nanya Technology,2408.TW,4615753825,1.48961,Taiwan
+79,Onto Innovation,ONTO,4614702592,94.3,United States
+80,Camtek,CAMT,4355105792,95.5,Israel
+81,Semtech,SMTC,4343908864,50.14,United States
+82,Silergy,6415.TW,4233575888,10.9584,China
+83,Silicon Labs,SLAB,4194270720,128.77,United States
+84,Maruwa,5344.T,3791537834,307.258,Japan
+85,Espressif Systems (Shanghai),688018.SS,3486900699,22.2517,China
+86,"ASMPT
+ (ASM Pacific Technology)",0522.HK,3458919013,8.30594,Hong Kong
+87,Socionext,6526.T,3299416807,18.8393,Japan
+88,Melexis NV,MELE.BR,3187296472,76.7147,Belgium
+89,Sumco Corporation,3436.T,2753084838,7.87252,Japan
+90,Ambarella,AMBA,2703474688,63.74,United States
+91,Power Integrations,POWI,2681106944,47.63,United States
+92,Nordic Semiconductor,NOD.OL,2602713524,13.7008,Norway
+93,Silicon Motion,SIMO,2597034240,76.42,Hong Kong
+94,VisEra Technologies,6789.TW,2491464738,7.84182,Taiwan
+95,Rorze Corporation,6323.T,2306446209,13.2392,Japan
+96,FormFactor,FORM,2229826048,28.93,United States
+97,Axcelis Technologies,ACLS,2208903168,68.75,United States
+98,Vishay Intertechnology,VSH,2166152960,15.98,United States
+99,Powerchip Semiconductor Manufacturing,6770.TW,2150050649,0.511059,Taiwan
+100,Sino-American Silicon Products,5483.TWO,2099381591,3.41823,Taiwan
+101,ACM Research,ACMR,1882725376,29.48,United States
+102,Aixtron,AIXA.F,1869481963,16.438,Germany
+103,Elmos Semiconductor,ELG.DE,1727064368,100.749,Germany
+104,Kulicke and Soffa Industries,KLIC,1704976128,32.31,Singapore
+105,Soitec,SOI.PA,1588129555,42.6513,France
+106,Navitas Semiconductor,NVTS,1528192640,7.96,Ireland
+107,Himax,HIMX,1512997376,8.65,Taiwan
+108,Siltronic,WAF.F,1374996203,43.5735,Germany
+109,WIN Semiconductors,3105.TWO,1217548759,2.87198,Taiwan
+110,Veeco,VECO,1191492608,20.44,United States
+111,Photronics,PLAB,1190378496,19.79,United States
+112,Formosa Sumco Technology,3532.TW,1145087376,2.95241,Taiwan
+113,X-FAB,XFAB.PA,1077477580,8.03458,Belgium
+114,UCT (Ultra Clean Holdings),UCTT,1011171136,22.3,United States
+115,nLIGHT,LASR,994228352,20.11,United States
+116,u-blox,UBXN.SW,939350149,125.833,Switzerland
+117,TOWA Corporation,6315.T,923782783,12.316,Japan
+118,Cohu,COHU,889596608,19.13,United States
+119,PDF Solutions,PDFS,850112064,21.72,United States
+120,AT&amp;S Austria Technologie &amp; Systemtechnik,ATS.VI,789987295,20.3343,Austria
+121,Alpha &amp; Omega Semiconductor,AOSL,738643200,24.82,United States
+122,indie Semiconductor,INDI,728896064,3.74,United States
+123,SÜSS MicroTec,SMHN.DE,711735621,37.2334,Germany
+124,Ichor Systems,ICHR,661247488,19.38,United States
+125,ChipMOS Technologies,IMOS,611561152,16.87,Taiwan
+126,RS Technologies,3445.T,561090711,20.8987,Japan
+127,Aehr Test Systems,AEHR,503770304,16.84,United States
+128,CEVA,CEVA,495069504,20.7,United States
+129,POET Technologies,POET,495046592,5.4,Canada
+130,SkyWater Technology,SKYT,421764832,8.78,United States
+131,SEALSQ,LAES,417891360,2.98,Switzerland
+132,Arteris,AIP,379898208,9.05,United States
+133,Aeluma,ALMU,328862304,20.82,United States
+134,Weebit Nano,WBT.AX,325155840,1.46956,Australia
+135,BrainChip,BRN.AX,284262758,0.128909,Australia
+136,Xperi,XPER,264985184,5.8,United States
+137,Valens Semiconductor,VLN,250499776,2.38,Israel
+138,Wolfspeed,WOLF,236553056,1.52,United States
+139,Sequans Communications,SQNS,178395008,1.25,France
+140,Atomera,ATOM,143081104,4.66,United States
+141,Everspin Technologies,MRAM,135029072,6.01,United States
+142,IQE plc,IQE.L,126162086,0.128263,United Kingdom
+143,centrotherm international,CTNK.F,121973486,5.76369,Germany
+144,Magnachip,MX,106748256,2.96,Luxembourg
+145,Quicklogic,QUIK,97708736,6.17,United States
+146,inTEST Corporation,INTT,88324096,7.07,United States
+147,AXT Inc,AXTI,87559104,1.92,United States
+148,GCT Semiconductor,GCTS,74175432,1.33,United States
+149,Amtech Systems,ASYS,65271840,4.56,United States
+150,Pixelworks,PXLW,56552416,10.78,United States
+151,Mobix Labs,MOBX,43760624,0.8189,United States
+152,Kalray,ALKAL.PA,8735389,0.714697,France

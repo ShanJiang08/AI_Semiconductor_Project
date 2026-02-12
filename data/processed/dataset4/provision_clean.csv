@@ -1,0 +1,1052 @@
+provider_name,provided_name,share_provided,year
+ACM Research,Wet etching and cleaning tools,11.4,2024
+ACM Research,Etch and clean tools,3.0,2024
+AMEC,Dry etching tools (adv. pkg.),18.1,2024
+AMEC,Dry etch tools,5.5,2024
+AMEC,Fabrication tools (for advanced packaging),2.5,2024
+AMEC,Etch and clean tools (adv. pkg.),12.2,2024
+AMEC,Low-pressure CVD tools,1.2,2024
+AMEC,Dry etching and cleaning tools,5.3,2024
+AMEC,Conductor etching tools,1.4,2024
+AMEC,Insulator etching tools,9.7,2024
+AMEC,Etch and clean tools,3.5,2024
+AP Systems,Rapid thermal processing tools,1.2,2024
+APIC Yamada,Packaging tools,11.7,2024
+ASM International,CVD tools (adv. pkg.),2.8,2024
+ASM International,Other deposition tools (non-IC),12.4,2024
+ASM International,Deposition tools,10.7,2024
+ASM International,Plasma CVD tools,1.6,2024
+ASM International,High-temperature CVD tools,20.5,2024
+ASM International,Atomic layer deposition tools,52.5,2024
+ASM International,Tube-based diffusion and deposition tools,7.0,2024
+ASM International,Chemical vapor deposition tools,4.2,2024
+ASM Pacific,Fabrication tools (for advanced packaging),2.2,2024
+ASM Pacific,PVD tools (adv. pkg.),3.7,2024
+ASM Pacific,ECP tools (adv. pkg.),8.2,2024
+ASM Pacific,Deposition tools (adv. pkg.),5.0,2024
+ASM Pacific,Die attaching tools for IC,10.7,2024
+ASM Pacific,Die attaching tools for non-IC,33.9,2024
+ASM Pacific,Auto ball bonders for IC,7.7,2024
+ASM Pacific,Auto ball bonders for non-IC,44.0,2024
+ASM Pacific,Automatic wedge bonders,27.2,2024
+ASM Pacific,Wafer level stud bonders,62.2,2024
+ASM Pacific,Assembly inspection tools,12.6,2024
+ASM Pacific,Dicing tools,1.7,2024
+ASM Pacific,Bonding tools,16.5,2024
+ASM Pacific,Die attaching tools,15.3,2024
+ASM Pacific,Wire bonding tools,21.9,2024
+ASM Pacific,Other interconnect tools,6.9,2024
+ASM Pacific,Packaging tools,3.1,2024
+ASM Pacific,Integrated assembly tools,97.8,2024
+ASM Pacific,Handlers and probers,1.4,2024
+ASML,KrF (DUV) lithography tools,79.2,2024
+ASML,i-line lithography tools,35.7,2024
+ASML,Overlay metrology tools,45.1,2024
+ASML,E-beam metrology tools,37.6,2024
+ASML,Lithography tools,78.5,2024
+ASML,EUV lithography tools,100.0,2024
+ASML,ArF dry (DUV) lithography tools,94.3,2024
+ASML,ArF immersion (DUV) lithography tools,98.7,2024
+ASML,Process control tools,5.2,2024
+ASTI,Assembly inspection tools,8.2,2024
+AUT,Wafer bonding and aligning tools,55.6,2024
+AUT,Imprint lithography,87.5,2024
+AUT,Fabrication tools (for advanced packaging),4.9,2024
+AUT,Mask aligners,4.3,2024
+AUT,Lithography tools,1.6,2024
+AUT,Mask exposure systems - e-beam,46.4,2024
+AUT,Wet etching and cleaning tools,0.1,2024
+AUT,Etch and clean tools,0.0,2024
+AccoTEST,Test tools,1.9,2024
+AccoTEST,Linear and discrete testing tools,36.9,2024
+Accretech,Dicing tools,8.2,2024
+Accretech,Handlers and probers,19.3,2024
+Accretech,Crystal machining tools,25.5,2024
+Advantest,Test tools,55.6,2024
+Advantest,Memory test tools,62.7,2024
+Advantest,SoC test tools,58.1,2024
+Advantest,Burn-in test tools,14.7,2024
+Advantest,Handlers and probers,2.4,2024
+Aehr Test Systems,Burn-in test tools,7.5,2024
+Aemulus,Linear and discrete testing tools,3.8,2024
+Aixtron,Other deposition tools (non-IC),21.4,2024
+Aixtron,Deposition tools,1.3,2024
+All Ring Tech,Assembly inspection tools,1.5,2024
+Applied Materials,Dry etching tools (adv. pkg.),14.5,2024
+Applied Materials,Dry etch tools,18.5,2024
+Applied Materials,Plasma modification tools,86.9,2024
+Applied Materials,Fabrication tools (for advanced packaging),28.8,2024
+Applied Materials,CVD tools (adv. pkg.),55.0,2024
+Applied Materials,PVD tools (adv. pkg.),70.4,2024
+Applied Materials,ECP tools (adv. pkg.),19.4,2024
+Applied Materials,E-beam metrology tools,49.5,2024
+Applied Materials,Defect review stations,71.9,2024
+Applied Materials,CMP tools (adv. pkg.),80.8,2024
+Applied Materials,Lithography tools (adv. pkg.),17.5,2024
+Applied Materials,Deposition tools (adv. pkg.),47.3,2024
+Applied Materials,Etch and clean tools (adv. pkg.),9.8,2024
+Applied Materials,Direct write systems (adv. pkg.),100.0,2024
+Applied Materials,Ion implanters,67.8,2024
+Applied Materials,Mask exposure systems - laser beam,61.4,2024
+Applied Materials,Deposition tools,44.8,2024
+Applied Materials,Plasma CVD tools,57.7,2024
+Applied Materials,Low-pressure CVD tools,18.9,2024
+Applied Materials,High-temperature CVD tools,73.4,2024
+Applied Materials,Atomic layer deposition tools,4.0,2024
+Applied Materials,Physical vapor deposition tools,85.6,2024
+Applied Materials,Rapid thermal processing tools,74.2,2024
+Applied Materials,Chemical vapor deposition tools,52.8,2024
+Applied Materials,Dry etching and cleaning tools,18.0,2024
+Applied Materials,Conductor etching tools,32.8,2024
+Applied Materials,Etch and clean tools,13.4,2024
+Applied Materials,Process control tools,10.5,2024
+Applied Materials,Photomask inspection and repair tools,1.0,2024
+Applied Materials,Critical dimensions metrology tools,30.1,2024
+Applied Materials,Defect inspection tools,5.1,2024
+Applied Materials,CMP tools,60.1,2024
+Axcelis,Ion implanters,22.1,2024
+BLR,Die attaching tools for IC,0.1,2024
+BLR,Manual wire bonders,6.8,2024
+BLR,Automatic wedge bonders,0.1,2024
+BLR,Process control tools,0.1,2024
+BLR,Photomask inspection and repair tools,0.5,2024
+BLR,Dicing tools,0.1,2024
+BLR,Bonding tools,0.1,2024
+BLR,Die attaching tools,0.1,2024
+BLR,Wire bonding tools,0.1,2024
+BLUE Engineering,Burn-in test tools,1.5,2024
+Besi,Die attaching tools for IC,30.9,2024
+Besi,Die attaching tools for non-IC,35.9,2024
+Besi,Bonding tools,19.2,2024
+Besi,Die attaching tools,31.9,2024
+Besi,Packaging tools,14.6,2024
+Bruker,"Film, stack, and shape metrology tools",5.0,2024
+CAMTEK,Fabrication tools (for advanced packaging),2.9,2024
+CAMTEK,Process control tools,1.5,2024
+CAMTEK,Inspection tools (adv. pkg.),18.6,2024
+CAMTEK,Defect inspection tools,3.4,2024
+CETC,Other deposition tools (non-IC),1.1,2024
+CHE,Fabrication tools (for advanced packaging),0.3,2024
+CHE,PVD tools (adv. pkg.),1.8,2024
+CHE,Deposition tools (adv. pkg.),0.8,2024
+CHE,Other deposition tools (non-IC),6.8,2024
+CHE,Deposition tools,0.4,2024
+CHE,Physical vapor deposition tools,0.2,2024
+CHN,Dry etching tools (adv. pkg.),26.5,2024
+CHN,Dry etch tools,10.7,2024
+CHN,i-line lithography tools,4.3,2024
+CHN,Fabrication tools (for advanced packaging),7.3,2024
+CHN,CVD tools (adv. pkg.),20.3,2024
+CHN,PVD tools (adv. pkg.),8.8,2024
+CHN,E-beam metrology tools,0.9,2024
+CHN,Test tools,6.3,2024
+CHN,Resist processing tools (adv. pkg.),2.0,2024
+CHN,CMP tools (adv. pkg.),6.7,2024
+CHN,Lithography tools (adv. pkg.),1.6,2024
+CHN,Deposition tools (adv. pkg.),6.9,2024
+CHN,Etch and clean tools (adv. pkg.),17.9,2024
+CHN,Die attaching tools for IC,0.6,2024
+CHN,Die attaching tools for non-IC,18.0,2024
+CHN,Auto ball bonders for IC,0.4,2024
+CHN,Automatic wedge bonders,1.0,2024
+CHN,Other deposition tools (non-IC),25.2,2024
+CHN,Ion implanters,0.3,2024
+CHN,Lithography tools,0.2,2024
+CHN,Resist processing tools,0.6,2024
+CHN,Deposition tools,7.4,2024
+CHN,Plasma CVD tools,8.2,2024
+CHN,Low-pressure CVD tools,4.0,2024
+CHN,High-temperature CVD tools,3.4,2024
+CHN,Atomic layer deposition tools,0.5,2024
+CHN,Physical vapor deposition tools,10.4,2024
+CHN,Rapid thermal processing tools,3.8,2024
+CHN,Tube-based diffusion and deposition tools,10.4,2024
+CHN,Chemical vapor deposition tools,6.7,2024
+CHN,Dry etching and cleaning tools,10.9,2024
+CHN,Wet etching and cleaning tools,3.8,2024
+CHN,Conductor etching tools,8.0,2024
+CHN,Insulator etching tools,10.5,2024
+CHN,Dry stripping tools,35.4,2024
+CHN,Misc. dry etch tools,55.5,2024
+CHN,Etch and clean tools,8.5,2024
+CHN,Process control tools,0.8,2024
+CHN,"Film, stack, and shape metrology tools",2.3,2024
+CHN,Critical dimensions metrology tools,0.6,2024
+CHN,Defect inspection tools,0.8,2024
+CHN,Assembly inspection tools,0.7,2024
+CHN,Dicing tools,0.4,2024
+CHN,Bonding tools,4.0,2024
+CHN,Die attaching tools,4.1,2024
+CHN,Wire bonding tools,0.3,2024
+CHN,Other interconnect tools,14.8,2024
+CHN,Packaging tools,2.8,2024
+CHN,SoC test tools,5.1,2024
+CHN,Burn-in test tools,9.1,2024
+CHN,Linear and discrete testing tools,68.7,2024
+CHN,Handlers and probers,7.9,2024
+CHN,CMP tools,9.5,2024
+Canon,KrF (DUV) lithography tools,17.4,2024
+Canon,i-line lithography tools,47.7,2024
+Canon,Die attaching tools for IC,1.6,2024
+Canon,Die attaching tools for non-IC,5.1,2024
+Canon,Other deposition tools (non-IC),2.8,2024
+Canon,Lithography tools,3.5,2024
+Canon,Bonding tools,1.4,2024
+Canon,Die attaching tools,2.3,2024
+Chroma ATE,Test tools,1.7,2024
+Chroma ATE,SoC test tools,2.3,2024
+Chroma ATE,Burn-in test tools,6.1,2024
+Chroma ATE,Handlers and probers,2.4,2024
+Cohu,Test tools,1.0,2024
+Cohu,Assembly inspection tools,8.8,2024
+Cohu,SoC test tools,1.5,2024
+Cohu,Handlers and probers,6.4,2024
+DEU,Wafer bonding and aligning tools,3.7,2024
+DEU,Direct write systems,32.8,2024
+DEU,Fabrication tools (for advanced packaging),0.9,2024
+DEU,PVD tools (adv. pkg.),0.3,2024
+DEU,Resist processing tools (adv. pkg.),13.1,2024
+DEU,Mask aligners,87.1,2024
+DEU,Lithography tools (adv. pkg.),10.8,2024
+DEU,Deposition tools (adv. pkg.),0.1,2024
+DEU,Die attaching tools for IC,0.3,2024
+DEU,Manual wire bonders,92.5,2024
+DEU,Auto ball bonders for IC,0.5,2024
+DEU,Automatic wedge bonders,16.4,2024
+DEU,Other deposition tools (non-IC),21.4,2024
+DEU,Lithography tools,1.0,2024
+DEU,Mask exposure systems - laser beam,1.3,2024
+DEU,Resist processing tools,2.9,2024
+DEU,Deposition tools,1.3,2024
+DEU,Wet etching and cleaning tools,0.1,2024
+DEU,Etch and clean tools,0.0,2024
+DEU,Process control tools,0.7,2024
+DEU,Photomask inspection and repair tools,11.0,2024
+DEU,Assembly inspection tools,2.2,2024
+DEU,Bonding tools,2.0,2024
+DEU,Die attaching tools,0.3,2024
+DEU,Wire bonding tools,5.3,2024
+DEU,Other interconnect tools,2.2,2024
+DEU,Handlers and probers,0.0,2024
+DI,Test tools,1.2,2024
+DI,Burn-in test tools,32.8,2024
+DIAS Automation,Automatic wedge bonders,1.0,2024
+Daifuku,Wafer handlers,53.1,2024
+Daifuku,Photomask handlers,5.9,2024
+Daifuku,Wafer and photomask handlers,51.1,2024
+Disco,Dicing tools,86.4,2024
+Disco,Crystal machining tools,68.0,2024
+E&R Engineering,Other interconnect tools,1.1,2024
+EBARA,Fabrication tools (for advanced packaging),1.3,2024
+EBARA,ECP tools (adv. pkg.),2.9,2024
+EBARA,CMP tools (adv. pkg.),11.5,2024
+EBARA,Deposition tools (adv. pkg.),1.2,2024
+EBARA,CMP tools,27.8,2024
+EDA Industries,Burn-in test tools,1.3,2024
+ELES Semiconductor Equipment,Burn-in test tools,4.2,2024
+EO Technics,Packaging tools,6.2,2024
+EV Group,Wafer bonding and aligning tools,55.6,2024
+EV Group,Imprint lithography,87.5,2024
+EV Group,Fabrication tools (for advanced packaging),4.9,2024
+EV Group,Mask aligners,4.3,2024
+Eugene Technology,Low-pressure CVD tools,7.5,2024
+Eugene Technology,Atomic layer deposition tools,1.2,2024
+Eugene Technology,Chemical vapor deposition tools,1.5,2024
+Evatec,PVD tools (adv. pkg.),1.8,2024
+Evatec,Other deposition tools (non-IC),6.8,2024
+F&K Delvotec,Manual wire bonders,92.5,2024
+F&K Delvotec,Wire bonding tools,1.4,2024
+FRA,Fabrication tools (for advanced packaging),0.2,2024
+FRA,Other deposition tools (non-IC),1.3,2024
+FRA,Deposition tools,0.1,2024
+FRA,Process control tools,0.0,2024
+FRA,Inspection tools (adv. pkg.),1.3,2024
+FRA,"Film, stack, and shape metrology tools",0.0,2024
+Fasford Tech,Die attaching tools for IC,5.2,2024
+Fasford Tech,Bonding tools,2.5,2024
+Fasford Tech,Die attaching tools,4.2,2024
+FormFactor,Handlers and probers,5.6,2024
+GBR,Dry etch tools,0.1,2024
+GBR,Fabrication tools (for advanced packaging),0.1,2024
+GBR,CVD tools (adv. pkg.),1.2,2024
+GBR,Deposition tools (adv. pkg.),0.2,2024
+GBR,Other deposition tools (non-IC),0.0,2024
+GBR,Deposition tools,0.1,2024
+GBR,High-temperature CVD tools,1.3,2024
+GBR,Atomic layer deposition tools,0.1,2024
+GBR,Chemical vapor deposition tools,0.2,2024
+GBR,Dry etching and cleaning tools,0.1,2024
+GBR,Misc. dry etch tools,3.7,2024
+GBR,Etch and clean tools,0.1,2024
+Genesem,Packaging tools,1.5,2024
+GigaLane,Imprint lithography,7.2,2024
+GigaLane,Misc. dry etch tools,5.0,2024
+Graco,Other interconnect tools,2.4,2024
+Grand Process,Single wafer spin & spray systems (adv. pkg.),2.1,2024
+Grand Process,Dry stripping tools,1.6,2024
+Grohmann,Integrated assembly tools,2.2,2024
+Gudeng,Photomask handlers,8.3,2024
+HANMI,Die attaching tools for IC,12.9,2024
+HANMI,Bonding tools,6.2,2024
+HANMI,Die attaching tools,10.4,2024
+HANMI,Packaging tools,6.8,2024
+HUN,Process control tools,0.5,2024
+HUN,"Film, stack, and shape metrology tools",2.8,2024
+Hangzhou Changchuan Technology,Test tools,4.1,2024
+Hangzhou Changchuan Technology,SoC test tools,4.3,2024
+Hangzhou Changchuan Technology,Burn-in test tools,9.1,2024
+Hangzhou Changchuan Technology,Linear and discrete testing tools,24.6,2024
+Hangzhou Changchuan Technology,Handlers and probers,7.6,2024
+Hanwha Precision Machinery,Die attaching tools for IC,1.2,2024
+Heidelberg Instruments,Mask exposure systems - laser beam,1.3,2024
+Hesse,Automatic wedge bonders,15.6,2024
+Hesse,Bonding tools,1.2,2024
+Hesse,Wire bonding tools,3.9,2024
+Hitachi,Dry etch tools,2.1,2024
+Hitachi,Defect review stations,3.8,2024
+Hitachi,Dry etching and cleaning tools,2.1,2024
+Hitachi,Conductor etching tools,4.0,2024
+Hitachi,Etch and clean tools,1.6,2024
+Hitachi,Process control tools,5.6,2024
+Hitachi,Critical dimensions metrology tools,69.0,2024
+Hitachi,Defect inspection tools,2.3,2024
+Hon Technologies,Handlers and probers,2.4,2024
+Hoson,Die attaching tools for non-IC,17.6,2024
+Hoson,Bonding tools,2.1,2024
+Hoson,Die attaching tools,3.5,2024
+Hoson,Linear and discrete testing tools,7.2,2024
+Hwatsing,CMP tools (adv. pkg.),6.7,2024
+Hwatsing,CMP tools,9.1,2024
+IMS Nanofabrication,Lithography tools,1.5,2024
+IMS Nanofabrication,Mask exposure systems - e-beam,46.4,2024
+ISR,Fabrication tools (for advanced packaging),2.9,2024
+ISR,Process control tools,5.2,2024
+ISR,Inspection tools (adv. pkg.),18.6,2024
+ISR,"Film, stack, and shape metrology tools",20.6,2024
+ISR,Defect inspection tools,3.4,2024
+ITA,Test tools,1.1,2024
+ITA,SoC test tools,1.4,2024
+ITA,Burn-in test tools,5.5,2024
+ITA,Handlers and probers,1.6,2024
+Incal Technology,Burn-in test tools,2.6,2024
+Innogrity,Handlers and probers,1.1,2024
+Iwashita Engineering,Other interconnect tools,10.2,2024
+JEOL,Direct write systems,67.2,2024
+JEOL,Mask exposure systems - e-beam,15.0,2024
+JPN,Wafer bonding and aligning tools,39.5,2024
+JPN,Dry etch tools,28.9,2024
+JPN,Plasma modification tools,11.6,2024
+JPN,KrF (DUV) lithography tools,20.8,2024
+JPN,i-line lithography tools,53.5,2024
+JPN,Direct write systems,67.2,2024
+JPN,Fabrication tools (for advanced packaging),15.1,2024
+JPN,Wafer handlers,85.6,2024
+JPN,CVD tools (adv. pkg.),8.0,2024
+JPN,PVD tools (adv. pkg.),7.0,2024
+JPN,ECP tools (adv. pkg.),3.4,2024
+JPN,Defect review stations,3.8,2024
+JPN,Photomask handlers,86.8,2024
+JPN,Test tools,56.2,2024
+JPN,Resist processing tools (adv. pkg.),80.0,2024
+JPN,Mask aligners,5.7,2024
+JPN,CMP tools (adv. pkg.),12.5,2024
+JPN,Single wafer spin & spray systems (adv. pkg.),76.7,2024
+JPN,Lithography tools (adv. pkg.),66.0,2024
+JPN,Deposition tools (adv. pkg.),5.7,2024
+JPN,Etch and clean tools (adv. pkg.),25.0,2024
+JPN,Die attaching tools for IC,16.8,2024
+JPN,Die attaching tools for non-IC,10.0,2024
+JPN,Auto ball bonders for IC,4.5,2024
+JPN,Auto ball bonders for non-IC,5.2,2024
+JPN,Automatic wedge bonders,0.8,2024
+JPN,Wafer level stud bonders,13.1,2024
+JPN,Other deposition tools (non-IC),12.8,2024
+JPN,Ion implanters,9.4,2024
+JPN,Lithography tools,17.4,2024
+JPN,ArF dry (DUV) lithography tools,5.7,2024
+JPN,ArF immersion (DUV) lithography tools,1.3,2024
+JPN,Mask exposure systems - e-beam,53.6,2024
+JPN,Resist processing tools,93.9,2024
+JPN,Deposition tools,15.2,2024
+JPN,Low-pressure CVD tools,30.5,2024
+JPN,Atomic layer deposition tools,25.4,2024
+JPN,Physical vapor deposition tools,3.1,2024
+JPN,Rapid thermal processing tools,5.7,2024
+JPN,Tube-based diffusion and deposition tools,79.9,2024
+JPN,Chemical vapor deposition tools,5.8,2024
+JPN,Dry etching and cleaning tools,28.6,2024
+JPN,Wet etching and cleaning tools,60.0,2024
+JPN,Conductor etching tools,6.8,2024
+JPN,Insulator etching tools,61.8,2024
+JPN,Dry stripping tools,35.4,2024
+JPN,Misc. dry etch tools,21.9,2024
+JPN,Etch and clean tools,37.7,2024
+JPN,Wafer and photomask handlers,85.7,2024
+JPN,Process control tools,15.1,2024
+JPN,Photomask inspection and repair tools,46.7,2024
+JPN,Inspection tools (adv. pkg.),0.1,2024
+JPN,"Film, stack, and shape metrology tools",7.8,2024
+JPN,Critical dimensions metrology tools,69.2,2024
+JPN,Defect inspection tools,4.2,2024
+JPN,Dicing tools,94.6,2024
+JPN,Bonding tools,13.7,2024
+JPN,Die attaching tools,15.5,2024
+JPN,Wire bonding tools,4.5,2024
+JPN,Other interconnect tools,31.7,2024
+JPN,Packaging tools,57.7,2024
+JPN,Memory test tools,62.7,2024
+JPN,SoC test tools,58.4,2024
+JPN,Burn-in test tools,16.1,2024
+JPN,Linear and discrete testing tools,9.6,2024
+JPN,Handlers and probers,44.5,2024
+JPN,CMP tools,28.7,2024
+JPN,Crystal machining tools,99.6,2024
+JT Corp.,Handlers and probers,1.5,2024
+Jingsheng Electromechanical,Other deposition tools (non-IC),3.2,2024
+Jusung Engineering,Other deposition tools (non-IC),1.8,2024
+Jusung Engineering,Atomic layer deposition tools,3.3,2024
+KBTEM,Manual wire bonders,6.8,2024
+KCTech,CMP tools,1.5,2024
+KES Systems,Burn-in test tools,1.7,2024
+KLA,Dry etching tools (adv. pkg.),9.8,2024
+KLA,Dry etch tools,1.2,2024
+KLA,Fabrication tools (for advanced packaging),9.1,2024
+KLA,CVD tools (adv. pkg.),1.7,2024
+KLA,PVD tools (adv. pkg.),7.9,2024
+KLA,Overlay metrology tools,54.2,2024
+KLA,E-beam metrology tools,11.9,2024
+KLA,Defect review stations,24.2,2024
+KLA,Deposition tools (adv. pkg.),3.8,2024
+KLA,Etch and clean tools (adv. pkg.),6.6,2024
+KLA,Other deposition tools (non-IC),7.3,2024
+KLA,Dry etching and cleaning tools,1.2,2024
+KLA,Conductor etching tools,1.4,2024
+KLA,Process control tools,57.2,2024
+KLA,Photomask inspection and repair tools,40.7,2024
+KLA,Inspection tools (adv. pkg.),39.7,2024
+KLA,"Film, stack, and shape metrology tools",47.0,2024
+KLA,Defect inspection tools,84.6,2024
+KLA,Assembly inspection tools,47.7,2024
+KOR,Dry clean tools,40.7,2024
+KOR,Dry etch tools,1.0,2024
+KOR,Plasma modification tools,1.5,2024
+KOR,Imprint lithography,7.2,2024
+KOR,Fabrication tools (for advanced packaging),0.2,2024
+KOR,Wafer handlers,13.7,2024
+KOR,Overlay metrology tools,0.6,2024
+KOR,Test tools,3.9,2024
+KOR,Resist processing tools (adv. pkg.),4.9,2024
+KOR,Lithography tools (adv. pkg.),4.1,2024
+KOR,Die attaching tools for IC,35.8,2024
+KOR,Die attaching tools for non-IC,1.6,2024
+KOR,Other deposition tools (non-IC),1.8,2024
+KOR,Lithography tools,0.2,2024
+KOR,Resist processing tools,1.3,2024
+KOR,Deposition tools,3.2,2024
+KOR,Plasma CVD tools,4.2,2024
+KOR,Low-pressure CVD tools,9.7,2024
+KOR,High-temperature CVD tools,1.3,2024
+KOR,Atomic layer deposition tools,6.0,2024
+KOR,Rapid thermal processing tools,1.2,2024
+KOR,Tube-based diffusion and deposition tools,1.9,2024
+KOR,Chemical vapor deposition tools,4.8,2024
+KOR,Dry etching and cleaning tools,1.7,2024
+KOR,Wet etching and cleaning tools,5.6,2024
+KOR,Conductor etching tools,1.2,2024
+KOR,Insulator etching tools,0.8,2024
+KOR,Dry stripping tools,7.9,2024
+KOR,Misc. dry etch tools,5.0,2024
+KOR,Etch and clean tools,2.8,2024
+KOR,Wafer and photomask handlers,13.1,2024
+KOR,Process control tools,0.4,2024
+KOR,"Film, stack, and shape metrology tools",0.5,2024
+KOR,Defect inspection tools,0.5,2024
+KOR,Assembly inspection tools,8.8,2024
+KOR,Dicing tools,1.0,2024
+KOR,Bonding tools,18.6,2024
+KOR,Die attaching tools,29.1,2024
+KOR,Other interconnect tools,10.8,2024
+KOR,Packaging tools,16.0,2024
+KOR,Memory test tools,8.7,2024
+KOR,SoC test tools,0.1,2024
+KOR,Burn-in test tools,43.0,2024
+KOR,Linear and discrete testing tools,0.9,2024
+KOR,Handlers and probers,22.1,2024
+KOR,CMP tools,1.5,2024
+KOSES,Other interconnect tools,2.9,2024
+Keithley Instruments,Process monitoring tools,31.4,2024
+Keysight Tech,Process monitoring tools,68.6,2024
+Kingsemi,Resist processing tools (adv. pkg.),2.0,2024
+Kingsemi,Lithography tools (adv. pkg.),1.6,2024
+Koh Young Tech,Assembly inspection tools,4.7,2024
+Kokusai,Plasma modification tools,5.7,2024
+Kokusai,CVD tools (adv. pkg.),6.7,2024
+Kokusai,Deposition tools,3.8,2024
+Kokusai,Atomic layer deposition tools,9.4,2024
+Kokusai,Rapid thermal processing tools,2.4,2024
+Kokusai,Tube-based diffusion and deposition tools,23.7,2024
+Kokusai,Dry stripping tools,27.2,2024
+Kulicke & Soffa,Die attaching tools for IC,3.1,2024
+Kulicke & Soffa,Auto ball bonders for IC,86.1,2024
+Kulicke & Soffa,Auto ball bonders for non-IC,47.9,2024
+Kulicke & Soffa,Automatic wedge bonders,54.4,2024
+Kulicke & Soffa,Wafer level stud bonders,1.1,2024
+Kulicke & Soffa,Bonding tools,21.9,2024
+Kulicke & Soffa,Die attaching tools,2.5,2024
+Kulicke & Soffa,Wire bonding tools,66.0,2024
+Kulicke & Soffa,Other interconnect tools,4.6,2024
+Lam Research,Dry etching tools (adv. pkg.),49.0,2024
+Lam Research,Dry clean tools,59.3,2024
+Lam Research,Dry etch tools,38.7,2024
+Lam Research,Fabrication tools (for advanced packaging),20.4,2024
+Lam Research,CVD tools (adv. pkg.),10.7,2024
+Lam Research,ECP tools (adv. pkg.),68.4,2024
+Lam Research,Single wafer spin & spray systems (adv. pkg.),9.4,2024
+Lam Research,Deposition tools (adv. pkg.),29.4,2024
+Lam Research,Etch and clean tools (adv. pkg.),36.1,2024
+Lam Research,Resist processing tools,1.1,2024
+Lam Research,Deposition tools,14.5,2024
+Lam Research,Plasma CVD tools,27.7,2024
+Lam Research,Low-pressure CVD tools,36.9,2024
+Lam Research,Atomic layer deposition tools,11.0,2024
+Lam Research,Electrochemical plating tools,99.8,2024
+Lam Research,Chemical vapor deposition tools,25.2,2024
+Lam Research,Dry etching and cleaning tools,38.6,2024
+Lam Research,Wet etching and cleaning tools,17.5,2024
+Lam Research,Conductor etching tools,48.8,2024
+Lam Research,Insulator etching tools,25.9,2024
+Lam Research,Dry stripping tools,8.1,2024
+Lam Research,Etch and clean tools,32.7,2024
+Lasertec,Process control tools,7.7,2024
+Lasertec,Photomask inspection and repair tools,45.6,2024
+Lasertec,Defect inspection tools,1.2,2024
+MIRTEC,Assembly inspection tools,4.1,2024
+MYS,Test tools,0.1,2024
+MYS,Linear and discrete testing tools,3.8,2024
+MYS,Handlers and probers,2.2,2024
+Manufacturing Integration Tech,Assembly inspection tools,1.1,2024
+Mattson Tech,Rapid thermal processing tools,3.8,2024
+Mattson Tech,Dry stripping tools,28.0,2024
+Micro Control,Burn-in test tools,5.4,2024
+Minami,Other interconnect tools,1.6,2024
+MingSeal,Other interconnect tools,8.4,2024
+Muehlbauer,Assembly inspection tools,2.2,2024
+Muratec,Wafer handlers,30.1,2024
+Muratec,Photomask handlers,81.0,2024
+Muratec,Wafer and photomask handlers,32.2,2024
+Musashi Engineering,Bonding tools,1.7,2024
+Musashi Engineering,Other interconnect tools,18.1,2024
+Mycronic,Mask exposure systems - laser beam,37.3,2024
+NAURA,Dry etching tools (adv. pkg.),8.4,2024
+NAURA,Dry etch tools,4.9,2024
+NAURA,Fabrication tools (for advanced packaging),4.1,2024
+NAURA,CVD tools (adv. pkg.),19.1,2024
+NAURA,PVD tools (adv. pkg.),8.8,2024
+NAURA,Deposition tools (adv. pkg.),6.7,2024
+NAURA,Etch and clean tools (adv. pkg.),5.7,2024
+NAURA,Other deposition tools (non-IC),18.3,2024
+NAURA,Deposition tools,4.9,2024
+NAURA,Plasma CVD tools,1.6,2024
+NAURA,Low-pressure CVD tools,2.8,2024
+NAURA,High-temperature CVD tools,3.4,2024
+NAURA,Physical vapor deposition tools,10.4,2024
+NAURA,Tube-based diffusion and deposition tools,10.4,2024
+NAURA,Chemical vapor deposition tools,2.1,2024
+NAURA,Dry etching and cleaning tools,4.9,2024
+NAURA,Wet etching and cleaning tools,3.5,2024
+NAURA,Conductor etching tools,6.1,2024
+NAURA,Dry stripping tools,7.3,2024
+NAURA,Misc. dry etch tools,55.5,2024
+NAURA,Etch and clean tools,4.4,2024
+NLD,KrF (DUV) lithography tools,79.2,2024
+NLD,i-line lithography tools,35.7,2024
+NLD,Fabrication tools (for advanced packaging),0.2,2024
+NLD,CVD tools (adv. pkg.),2.8,2024
+NLD,Overlay metrology tools,45.1,2024
+NLD,E-beam metrology tools,37.6,2024
+NLD,Deposition tools (adv. pkg.),0.4,2024
+NLD,Die attaching tools for IC,30.9,2024
+NLD,Die attaching tools for non-IC,35.9,2024
+NLD,Other deposition tools (non-IC),12.4,2024
+NLD,Lithography tools,78.5,2024
+NLD,EUV lithography tools,100.0,2024
+NLD,ArF dry (DUV) lithography tools,94.3,2024
+NLD,ArF immersion (DUV) lithography tools,98.7,2024
+NLD,Deposition tools,10.7,2024
+NLD,Plasma CVD tools,1.6,2024
+NLD,High-temperature CVD tools,20.5,2024
+NLD,Atomic layer deposition tools,52.5,2024
+NLD,Tube-based diffusion and deposition tools,7.0,2024
+NLD,Chemical vapor deposition tools,4.2,2024
+NLD,Dry etching and cleaning tools,0.2,2024
+NLD,Dry stripping tools,11.3,2024
+NLD,Etch and clean tools,0.1,2024
+NLD,Process control tools,5.2,2024
+NLD,Bonding tools,19.2,2024
+NLD,Die attaching tools,31.9,2024
+NLD,Packaging tools,14.6,2024
+National Instruments,Linear and discrete testing tools,14.1,2024
+Nikon,KrF (DUV) lithography tools,3.4,2024
+Nikon,i-line lithography tools,5.7,2024
+Nikon,Lithography tools,1.2,2024
+Nikon,ArF dry (DUV) lithography tools,5.7,2024
+Nikon,ArF immersion (DUV) lithography tools,1.3,2024
+Nissin Ion,Ion implanters,1.2,2024
+Nordson,Bonding tools,1.1,2024
+Nordson,Other interconnect tools,11.0,2024
+Nova,Process control tools,3.7,2024
+Nova,"Film, stack, and shape metrology tools",20.6,2024
+NuFlare,Other deposition tools (non-IC),1.9,2024
+NuFlare,Lithography tools,1.3,2024
+NuFlare,Mask exposure systems - e-beam,38.5,2024
+Okamoto,Crystal machining tools,6.2,2024
+Onto Innovation,i-line lithography tools,1.9,2024
+Onto Innovation,Fabrication tools (for advanced packaging),6.2,2024
+Onto Innovation,Process control tools,3.0,2024
+Onto Innovation,Inspection tools (adv. pkg.),40.2,2024
+Onto Innovation,"Film, stack, and shape metrology tools",13.6,2024
+Onto Innovation,Defect inspection tools,1.4,2024
+Oxford Instruments,CVD tools (adv. pkg.),1.2,2024
+Oxford Instruments,Misc. dry etch tools,3.7,2024
+PROTEC,Die attaching tools for non-IC,1.6,2024
+PROTEC,Other interconnect tools,2.4,2024
+PSK,Dry clean tools,39.8,2024
+PSK,Dry stripping tools,7.9,2024
+PacTech,Wafer level stud bonders,1.2,2024
+Palomar Technologies,Auto ball bonders for non-IC,2.7,2024
+Pentamaster,Handlers and probers,2.2,2024
+Piotech,CVD tools (adv. pkg.),1.2,2024
+Piotech,Deposition tools,1.8,2024
+Piotech,Plasma CVD tools,6.4,2024
+Piotech,Chemical vapor deposition tools,4.2,2024
+Plasma-Therm,Other deposition tools (non-IC),2.1,2024
+Plasma-Therm,Misc. dry etch tools,12.7,2024
+Precision Valve & Automation,Other interconnect tools,4.3,2024
+Raintree Scientific Instruments (RSIC),"Film, stack, and shape metrology tools",2.3,2024
+Riber,Other deposition tools (non-IC),1.3,2024
+Rigaku,Process control tools,1.2,2024
+Rigaku,"Film, stack, and shape metrology tools",7.1,2024
+Rorze,Wafer handlers,2.4,2024
+Rorze,Wafer and photomask handlers,2.3,2024
+Royce Instruments,Assembly inspection tools,1.2,2024
+SAEJONG IND,Other interconnect tools,1.7,2024
+SAMCO,Dry stripping tools,1.1,2024
+SAMCO,Misc. dry etch tools,8.3,2024
+SEMES,Wafer handlers,13.7,2024
+SEMES,Resist processing tools (adv. pkg.),4.9,2024
+SEMES,Lithography tools (adv. pkg.),4.1,2024
+SEMES,Die attaching tools for IC,21.2,2024
+SEMES,Resist processing tools,1.3,2024
+SEMES,Wet etching and cleaning tools,4.5,2024
+SEMES,Etch and clean tools,1.8,2024
+SEMES,Wafer and photomask handlers,13.1,2024
+SEMES,Bonding tools,10.2,2024
+SEMES,Die attaching tools,17.0,2024
+SEMES,Handlers and probers,7.8,2024
+SGP,Fabrication tools (for advanced packaging),2.2,2024
+SGP,PVD tools (adv. pkg.),3.7,2024
+SGP,ECP tools (adv. pkg.),8.2,2024
+SGP,Deposition tools (adv. pkg.),5.0,2024
+SGP,Die attaching tools for IC,14.3,2024
+SGP,Die attaching tools for non-IC,33.9,2024
+SGP,Auto ball bonders for IC,93.8,2024
+SGP,Auto ball bonders for non-IC,91.9,2024
+SGP,Automatic wedge bonders,81.6,2024
+SGP,Wafer level stud bonders,63.3,2024
+SGP,Assembly inspection tools,21.9,2024
+SGP,Dicing tools,1.7,2024
+SGP,Bonding tools,38.6,2024
+SGP,Die attaching tools,18.1,2024
+SGP,Wire bonding tools,88.0,2024
+SGP,Other interconnect tools,11.5,2024
+SGP,Packaging tools,3.6,2024
+SGP,Integrated assembly tools,97.8,2024
+SGP,Handlers and probers,2.5,2024
+SMEE,i-line lithography tools,4.3,2024
+SMIT,Ion implanters,8.2,2024
+SPEA,SoC test tools,1.4,2024
+SPEA,Handlers and probers,1.6,2024
+SSP,Other interconnect tools,3.7,2024
+STK Technology,Burn-in test tools,1.4,2024
+SUSS MicroTec,Wafer bonding and aligning tools,3.7,2024
+SUSS MicroTec,Resist processing tools (adv. pkg.),13.1,2024
+SUSS MicroTec,Mask aligners,87.1,2024
+SUSS MicroTec,Lithography tools (adv. pkg.),10.8,2024
+SUSS MicroTec,Resist processing tools,2.9,2024
+SWE,Lithography tools,0.2,2024
+SWE,Mask exposure systems - laser beam,37.3,2024
+SWE,Bonding tools,0.8,2024
+SWE,Other interconnect tools,8.1,2024
+Screen,Fabrication tools (for advanced packaging),3.3,2024
+Screen,Single wafer spin & spray systems (adv. pkg.),48.7,2024
+Screen,Etch and clean tools (adv. pkg.),15.9,2024
+Screen,Resist processing tools,2.1,2024
+Screen,Rapid thermal processing tools,3.3,2024
+Screen,Wet etching and cleaning tools,37.9,2024
+Screen,Etch and clean tools,9.9,2024
+Semics,Handlers and probers,7.8,2024
+Semilab,"Film, stack, and shape metrology tools",2.8,2024
+Shenzhen Axxon Automation,Other interconnect tools,8.1,2024
+Shenzhen Naso Tech Co.,Other deposition tools (non-IC),2.6,2024
+ShibaSoku,Linear and discrete testing tools,1.8,2024
+Shibaura Mechatronics,Fabrication tools (for advanced packaging),1.9,2024
+Shibaura Mechatronics,Single wafer spin & spray systems (adv. pkg.),28.0,2024
+Shibaura Mechatronics,Etch and clean tools (adv. pkg.),9.2,2024
+Shibaura Mechatronics,Die attaching tools for IC,3.8,2024
+Shibaura Mechatronics,Die attaching tools for non-IC,3.7,2024
+Shibaura Mechatronics,Dry stripping tools,7.2,2024
+Shibaura Mechatronics,Misc. dry etch tools,13.6,2024
+Shibaura Mechatronics,Bonding tools,2.3,2024
+Shibaura Mechatronics,Die attaching tools,3.8,2024
+Shibuya Kogyo,Other interconnect tools,1.4,2024
+Shinkawa,Die attaching tools for IC,5.1,2024
+Shinkawa,Auto ball bonders for IC,3.5,2024
+Shinkawa,Auto ball bonders for non-IC,5.0,2024
+Shinkawa,Wafer level stud bonders,11.9,2024
+Shinkawa,Bonding tools,3.5,2024
+Shinkawa,Die attaching tools,4.2,2024
+Shinkawa,Wire bonding tools,3.1,2024
+TESEC,Linear and discrete testing tools,7.8,2024
+TOWA,Packaging tools,45.5,2024
+TWN,Fabrication tools (for advanced packaging),0.2,2024
+TWN,Wafer handlers,0.5,2024
+TWN,ECP tools (adv. pkg.),0.4,2024
+TWN,Photomask handlers,8.3,2024
+TWN,Test tools,1.8,2024
+TWN,Single wafer spin & spray systems (adv. pkg.),2.1,2024
+TWN,Deposition tools (adv. pkg.),0.2,2024
+TWN,Etch and clean tools (adv. pkg.),0.7,2024
+TWN,Die attaching tools for IC,0.1,2024
+TWN,Die attaching tools for non-IC,0.2,2024
+TWN,Ion implanters,0.5,2024
+TWN,Deposition tools,0.0,2024
+TWN,Electrochemical plating tools,0.2,2024
+TWN,Dry etching and cleaning tools,0.0,2024
+TWN,Wet etching and cleaning tools,0.5,2024
+TWN,Dry stripping tools,1.6,2024
+TWN,Etch and clean tools,0.2,2024
+TWN,Wafer and photomask handlers,0.8,2024
+TWN,Assembly inspection tools,5.9,2024
+TWN,Dicing tools,0.4,2024
+TWN,Bonding tools,0.2,2024
+TWN,Die attaching tools,0.1,2024
+TWN,Other interconnect tools,1.6,2024
+TWN,Packaging tools,1.4,2024
+TWN,SoC test tools,2.4,2024
+TWN,Burn-in test tools,6.1,2024
+TWN,Handlers and probers,4.9,2024
+TechWing,Handlers and probers,2.3,2024
+Tensun,Other interconnect tools,6.2,2024
+Teradyne,Test tools,27.7,2024
+Teradyne,Memory test tools,28.6,2024
+Teradyne,SoC test tools,30.4,2024
+Thermco Epitaxy,High-temperature CVD tools,1.3,2024
+Tokyo Electron,Wafer bonding and aligning tools,39.5,2024
+Tokyo Electron,Dry etch tools,26.4,2024
+Tokyo Electron,Plasma modification tools,6.0,2024
+Tokyo Electron,Fabrication tools (for advanced packaging),6.6,2024
+Tokyo Electron,Resist processing tools (adv. pkg.),80.0,2024
+Tokyo Electron,Lithography tools (adv. pkg.),66.0,2024
+Tokyo Electron,Other deposition tools (non-IC),4.2,2024
+Tokyo Electron,Lithography tools,10.6,2024
+Tokyo Electron,Resist processing tools,91.8,2024
+Tokyo Electron,Deposition tools,10.2,2024
+Tokyo Electron,Low-pressure CVD tools,30.5,2024
+Tokyo Electron,Atomic layer deposition tools,16.0,2024
+Tokyo Electron,Tube-based diffusion and deposition tools,56.2,2024
+Tokyo Electron,Chemical vapor deposition tools,5.8,2024
+Tokyo Electron,Dry etching and cleaning tools,25.6,2024
+Tokyo Electron,Wet etching and cleaning tools,21.5,2024
+Tokyo Electron,Conductor etching tools,2.9,2024
+Tokyo Electron,Insulator etching tools,61.8,2024
+Tokyo Electron,Etch and clean tools,25.4,2024
+Tokyo Electron,Handlers and probers,20.8,2024
+Tokyo Weld,Handlers and probers,1.2,2024
+Toray,Mask aligners,4.6,2024
+Trinity Tech,Packaging tools,1.6,2024
+Trio-Tech International,Burn-in test tools,1.5,2024
+Trion Technology,Misc. dry etch tools,1.0,2024
+Trymax,Dry stripping tools,11.3,2024
+ULVAC,Fabrication tools (for advanced packaging),1.5,2024
+ULVAC,CVD tools (adv. pkg.),1.3,2024
+ULVAC,PVD tools (adv. pkg.),7.0,2024
+ULVAC,Deposition tools (adv. pkg.),3.3,2024
+ULVAC,Other deposition tools (non-IC),3.7,2024
+ULVAC,Physical vapor deposition tools,2.1,2024
+USA,Wafer bonding and aligning tools,0.9,2024
+USA,Dry etching tools (adv. pkg.),73.5,2024
+USA,Dry clean tools,59.3,2024
+USA,Dry etch tools,58.7,2024
+USA,Plasma modification tools,86.9,2024
+USA,i-line lithography tools,6.5,2024
+USA,Fabrication tools (for advanced packaging),65.4,2024
+USA,CVD tools (adv. pkg.),67.4,2024
+USA,PVD tools (adv. pkg.),78.3,2024
+USA,ECP tools (adv. pkg.),87.9,2024
+USA,Overlay metrology tools,54.2,2024
+USA,E-beam metrology tools,61.5,2024
+USA,Defect review stations,96.2,2024
+USA,Test tools,30.2,2024
+USA,CMP tools (adv. pkg.),80.8,2024
+USA,Single wafer spin & spray systems (adv. pkg.),21.2,2024
+USA,Lithography tools (adv. pkg.),17.5,2024
+USA,Deposition tools (adv. pkg.),80.5,2024
+USA,Etch and clean tools (adv. pkg.),56.4,2024
+USA,Direct write systems (adv. pkg.),100.0,2024
+USA,Die attaching tools for IC,0.0,2024
+USA,Auto ball bonders for IC,0.0,2024
+USA,Auto ball bonders for non-IC,2.7,2024
+USA,Other deposition tools (non-IC),17.3,2024
+USA,Ion implanters,89.9,2024
+USA,Lithography tools,0.8,2024
+USA,Mask exposure systems - laser beam,61.4,2024
+USA,Resist processing tools,1.2,2024
+USA,Deposition tools,61.5,2024
+USA,Plasma CVD tools,85.9,2024
+USA,Low-pressure CVD tools,55.8,2024
+USA,High-temperature CVD tools,73.4,2024
+USA,Atomic layer deposition tools,15.5,2024
+USA,Physical vapor deposition tools,86.1,2024
+USA,Rapid thermal processing tools,89.3,2024
+USA,Tube-based diffusion and deposition tools,0.4,2024
+USA,Electrochemical plating tools,99.8,2024
+USA,Chemical vapor deposition tools,78.3,2024
+USA,Dry etching and cleaning tools,57.9,2024
+USA,Wet etching and cleaning tools,29.2,2024
+USA,Conductor etching tools,83.0,2024
+USA,Insulator etching tools,26.8,2024
+USA,Dry stripping tools,8.1,2024
+USA,Misc. dry etch tools,13.7,2024
+USA,Etch and clean tools,49.9,2024
+USA,Process control tools,72.0,2024
+USA,Photomask inspection and repair tools,41.7,2024
+USA,Inspection tools (adv. pkg.),80.0,2024
+USA,Process monitoring tools,100.0,2024
+USA,"Film, stack, and shape metrology tools",65.6,2024
+USA,Critical dimensions metrology tools,30.1,2024
+USA,Defect inspection tools,91.0,2024
+USA,Assembly inspection tools,58.7,2024
+USA,Dicing tools,0.7,2024
+USA,Bonding tools,1.9,2024
+USA,Die attaching tools,0.0,2024
+USA,Wire bonding tools,0.5,2024
+USA,Other interconnect tools,17.7,2024
+USA,Packaging tools,0.1,2024
+USA,Integrated assembly tools,2.2,2024
+USA,Memory test tools,28.6,2024
+USA,SoC test tools,32.3,2024
+USA,Burn-in test tools,18.5,2024
+USA,Linear and discrete testing tools,15.6,2024
+USA,Handlers and probers,12.0,2024
+USA,CMP tools,60.3,2024
+USA,Crystal machining tools,0.1,2024
+UniTest,Memory test tools,1.4,2024
+UniTest,Burn-in test tools,6.1,2024
+UnitySC,Inspection tools (adv. pkg.),1.3,2024
+Ushio,Mask aligners,1.1,2024
+Various companies,Deposition tools,5.3,2024
+Various companies,Tube-based diffusion and deposition tools,0.8,2024
+Various companies,Chemical vapor deposition tools,1.4,2024
+Various companies,Handlers and probers,6.3,2024
+Various companies,Fabrication tools (for advanced packaging),4.4,2024
+Various companies,Deposition tools (adv. pkg.),3.4,2024
+Various companies,Die attaching tools for IC,4.2,2024
+Various companies,Bonding tools,10.2,2024
+Various companies,Die attaching tools,5.0,2024
+Various companies,SoC test tools,2.0,2024
+Various companies,CMP tools (adv. pkg.),0.9,2024
+Various companies,CMP tools,1.5,2024
+Various companies,Test tools,5.0,2024
+Various companies,Die attaching tools for non-IC,2.2,2024
+Various companies,Dicing tools,3.8,2024
+Various companies,Other interconnect tools,3.4,2024
+Various companies,Packaging tools,9.0,2024
+Various companies,ECP tools (adv. pkg.),1.1,2024
+Various companies,Wet etching and cleaning tools,3.7,2024
+Various companies,Etch and clean tools,4.4,2024
+Various companies,Lithography tools,3.4,2024
+Various companies,Insulator etching tools,2.7,2024
+Various companies,Overlay metrology tools,0.7,2024
+Various companies,Process control tools,4.3,2024
+Various companies,Resist processing tools,0.8,2024
+Various companies,Ion implanters,0.7,2024
+Various companies,Plasma CVD tools,1.1,2024
+Various companies,Physical vapor deposition tools,1.8,2024
+Various companies,Linear and discrete testing tools,3.7,2024
+Various companies,Wire bonding tools,3.6,2024
+Various companies,E-beam metrology tools,0.9,2024
+Various companies,Critical dimensions metrology tools,1.0,2024
+Various companies,Plasma modification tools,1.5,2024
+Various companies,High-temperature CVD tools,1.3,2024
+Various companies,Memory test tools,0.5,2024
+Various companies,Burn-in test tools,2.4,2024
+Various companies,Auto ball bonders for IC,2.7,2024
+Various companies,Automatic wedge bonders,1.8,2024
+Various companies,Dry etch tools,2.7,2024
+Various companies,Dry etching and cleaning tools,4.5,2024
+Various companies,Etch and clean tools (adv. pkg.),0.8,2024
+Various companies,Electrochemical plating tools,0.2,2024
+Various companies,Assembly inspection tools,4.1,2024
+Various companies,Wafer handlers,0.7,2024
+Various companies,Wafer and photomask handlers,1.2,2024
+Various companies,Photomask inspection and repair tools,1.7,2024
+Various companies,Conductor etching tools,2.7,2024
+Various companies,Auto ball bonders for non-IC,0.5,2024
+Various companies,Wafer bonding and aligning tools,1.2,2024
+Various companies,Defect inspection tools,2.1,2024
+Various companies,Other deposition tools (non-IC),1.2,2024
+Various companies,Atomic layer deposition tools,1.1,2024
+Various companies,"Film, stack, and shape metrology tools",1.5,2024
+Various companies,Dry etching tools (adv. pkg.),0.1,2024
+Various companies,Rapid thermal processing tools,0.6,2024
+Various companies,Crystal machining tools,0.4,2024
+Various companies,Dry clean tools,0.9,2024
+Various companies,PVD tools (adv. pkg.),0.4,2024
+Various companies,Low-pressure CVD tools,0.3,2024
+Various companies,Inspection tools (adv. pkg.),0.2,2024
+Various companies,Imprint lithography,5.2,2024
+Various companies,CVD tools (adv. pkg.),0.2,2024
+Various companies,Spin-on deposition tools (adv. pkg.),100.0,2024
+Various companies,Photomask handlers,4.9,2024
+Various companies,Mask aligners,2.9,2024
+Various companies,Manual wire bonders,0.8,2024
+Various companies,Wafer level stud bonders,23.6,2024
+Various companies,Ion milling tools,100.0,2024
+Various companies,Dry stripping tools,0.3,2024
+Various companies,Misc. dry etch tools,0.1,2024
+Various countries,Wafer bonding and aligning tools,0.4,2024
+Various countries,Dry etch tools,0.6,2024
+Various countries,Imprint lithography,5.2,2024
+Various countries,Fabrication tools (for advanced packaging),0.1,2024
+Various countries,Wafer handlers,0.2,2024
+Various countries,CVD tools (adv. pkg.),0.2,2024
+Various countries,PVD tools (adv. pkg.),0.1,2024
+Various countries,Spin-on deposition tools (adv. pkg.),100.0,2024
+Various countries,Overlay metrology tools,0.1,2024
+Various countries,Photomask handlers,4.9,2024
+Various countries,Test tools,0.3,2024
+Various countries,Mask aligners,2.9,2024
+Various countries,Deposition tools (adv. pkg.),0.3,2024
+Various countries,Die attaching tools for IC,0.9,2024
+Various countries,Die attaching tools for non-IC,0.4,2024
+Various countries,Manual wire bonders,0.8,2024
+Various countries,Auto ball bonders for IC,0.8,2024
+Various countries,Auto ball bonders for non-IC,0.2,2024
+Various countries,Wafer level stud bonders,23.6,2024
+Various countries,Other deposition tools (non-IC),1.0,2024
+Various countries,Lithography tools,0.0,2024
+Various countries,Resist processing tools,0.2,2024
+Various countries,Deposition tools,0.2,2024
+Various countries,Plasma CVD tools,0.1,2024
+Various countries,Physical vapor deposition tools,0.2,2024
+Various countries,Rapid thermal processing tools,0.0,2024
+Various countries,Tube-based diffusion and deposition tools,0.4,2024
+Various countries,Chemical vapor deposition tools,0.1,2024
+Various countries,Dry etching and cleaning tools,0.6,2024
+Various countries,Wet etching and cleaning tools,0.7,2024
+Various countries,Conductor etching tools,1.0,2024
+Various countries,Insulator etching tools,0.2,2024
+Various countries,Ion milling tools,100.0,2024
+Various countries,Dry stripping tools,0.3,2024
+Various countries,Misc. dry etch tools,0.1,2024
+Various countries,Etch and clean tools,0.7,2024
+Various countries,Wafer and photomask handlers,0.4,2024
+Various countries,Process control tools,0.1,2024
+Various countries,Photomask inspection and repair tools,0.0,2024
+Various countries,Inspection tools (adv. pkg.),0.0,2024
+Various countries,"Film, stack, and shape metrology tools",0.3,2024
+Various countries,Critical dimensions metrology tools,0.2,2024
+Various countries,Defect inspection tools,0.1,2024
+Various countries,Assembly inspection tools,1.8,2024
+Various countries,Dicing tools,1.1,2024
+Various countries,Bonding tools,1.0,2024
+Various countries,Die attaching tools,0.8,2024
+Various countries,Wire bonding tools,1.3,2024
+Various countries,Other interconnect tools,1.6,2024
+Various countries,Packaging tools,3.8,2024
+Various countries,Memory test tools,0.1,2024
+Various countries,SoC test tools,0.3,2024
+Various countries,Burn-in test tools,1.6,2024
+Various countries,Linear and discrete testing tools,1.3,2024
+Various countries,Handlers and probers,2.4,2024
+Various countries,Crystal machining tools,0.2,2024
+Veeco,i-line lithography tools,4.6,2024
+Veeco,Single wafer spin & spray systems (adv. pkg.),11.8,2024
+Veeco,Etch and clean tools (adv. pkg.),3.9,2024
+Veeco,Other deposition tools (non-IC),7.8,2024
+Veeco,Deposition tools,1.3,2024
+Veeco,Rapid thermal processing tools,14.6,2024
+Vermes,Other interconnect tools,1.5,2024
+Vistec,Direct write systems,32.8,2024
+Wonik,Deposition tools,1.5,2024
+Wonik,Plasma CVD tools,3.9,2024
+Wonik,Low-pressure CVD tools,1.9,2024
+Wonik,Atomic layer deposition tools,1.4,2024
+Wonik,Tube-based diffusion and deposition tools,1.9,2024
+Wonik,Chemical vapor deposition tools,2.9,2024
+YEST,Burn-in test tools,1.9,2024
+YIKC,Test tools,1.8,2024
+YIKC,Memory test tools,6.8,2024
+YoungTek Electronics (YTEC),Assembly inspection tools,3.6,2024
+Zeiss,Photomask inspection and repair tools,11.0,2024
+CHN,"Assembly, testing, and packaging (ATP)",30.0,2022
+CHN,Fabrication,24.0,2022
+CHN,Design,6.0,2022
+CHN,Chip design,5.0,2022
+CHN,Memory chip design,3.0,2022
+CHN,DAO chip design,9.0,2022
+DEU,Crystal growing furnaces,100.0,2022
+EUR,"Assembly, testing, and packaging (ATP)",3.0,2022
+EUR,Fabrication,8.0,2022
+EUR,Design,10.0,2022
+EUR,Chip design,9.0,2022
+EUR,DAO chip design,17.0,2022
+JPN,"Assembly, testing, and packaging (ATP)",6.0,2022
+JPN,Fabrication,17.0,2022
+JPN,Design,9.0,2022
+JPN,Chip design,4.0,2022
+JPN,Memory chip design,7.0,2022
+JPN,DAO chip design,18.0,2022
+KOR,"Assembly, testing, and packaging (ATP)",9.0,2022
+KOR,Fabrication,17.0,2022
+KOR,Design,13.0,2022
+KOR,Chip design,3.0,2022
+KOR,Memory chip design,60.0,2022
+KOR,DAO chip design,4.0,2022
+PVA TePla,Crystal growing furnaces,100.0,2022
+TWN,"Assembly, testing, and packaging (ATP)",28.0,2022
+TWN,Fabrication,18.0,2022
+TWN,Design,8.0,2022
+TWN,Chip design,11.0,2022
+TWN,Memory chip design,4.0,2022
+TWN,DAO chip design,5.0,2022
+USA,"Assembly, testing, and packaging (ATP)",3.0,2022
+USA,Fabrication,10.0,2022
+USA,Design,51.0,2022
+USA,Chip design,65.0,2022
+USA,Memory chip design,25.0,2022
+USA,DAO chip design,41.0,2022
+Various countries,"Assembly, testing, and packaging (ATP)",20.0,2022
+Various countries,Fabrication,7.0,2022
+Various countries,Design,4.0,2022
+Various countries,Chip design,4.0,2022
+Various countries,Memory chip design,1.0,2022
+Various countries,DAO chip design,6.0,2022
+CHN,Electronic design automation software,1.0,2019
+CHN,Core intellectual property,2.0,2019
+CHN,Wafer,4.0,2019
+DEU,Wafer,14.0,2019
+GBR,Core intellectual property,43.0,2019
+GBR,Electronic design automation software,1.0,2019
+ISR,Electronic design automation software,1.0,2019
+JPN,Wafer,56.0,2019
+JPN,Photomasks,53.0,2019
+JPN,Electronic design automation software,3.0,2019
+KOR,Wafer,10.0,2019
+TWN,Core intellectual property,1.0,2019
+TWN,Wafer,16.0,2019
+TWN,Photomasks,7.0,2019
+USA,Electronic design automation software,96.0,2019
+USA,Core intellectual property,52.0,2019
+USA,Photomasks,40.0,2019
+Various,Core intellectual property,2.0,2019

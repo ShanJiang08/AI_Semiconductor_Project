@@ -1,0 +1,140 @@
+input_name,goes_into_name,is_type_of_name
+Crystal growing furnaces,Wafer,
+Crystal machining tools,Wafer,
+EUV lithography tools,,Lithography tools
+ArF dry (DUV) lithography tools,,Lithography tools
+ArF immersion (DUV) lithography tools,,Lithography tools
+Lithography tools,Photolithography,
+Ion implantation,Chemical mechanical planarization,
+Etch and clean,Ion implantation,
+Maskless lithography tools,,Lithography tools
+Mask exposure systems - e-beam,,Maskless lithography tools
+Mask exposure systems - laser beam,,Maskless lithography tools
+Photomasks,Photolithography,
+Photoresists,Photolithography,
+Resist processing tools,Photolithography,
+Deposition tools,Deposition,
+Plasma CVD tools,,Chemical vapor deposition tools
+Low-pressure CVD tools,,Chemical vapor deposition tools
+High-temperature CVD tools,,Chemical vapor deposition tools
+Atomic layer deposition tools,,Deposition tools
+Physical vapor deposition tools,,Deposition tools
+Rapid thermal processing tools,,Deposition tools
+Tube-based diffusion and deposition tools,,Deposition tools
+Electrochemical plating tools,,Deposition tools
+Chip design,Deposition,
+Deposition,Photolithography,
+Photolithography,Etch and clean,
+Chemical vapor deposition tools,,Deposition tools
+Dry etching and cleaning tools,Etch and clean tools,
+Wet etching and cleaning tools,Etch and clean tools,
+Conductor etching tools,,Dry etch tools
+Insulator etching tools,,Dry etch tools
+CMP tools,Chemical mechanical planarization,
+Wafer handlers,,Wafer and photomask handlers
+Photomask handlers,,Wafer and photomask handlers
+Wafer bonding and aligning tools,,Fabrication tools (for advanced packaging)
+Process control and handling,Photolithography,
+Process control and handling,Etch and clean,
+Process control and handling,Chemical mechanical planarization,
+Process control and handling,Ion implantation,
+Process control and handling,Deposition,
+Wafer inspection tools,,Process control tools
+Photomask inspection and repair tools,,Process control tools
+Inspection tools (adv. pkg.),,Fabrication tools (for advanced packaging)
+Process monitoring tools,,Process control tools
+"Film, stack, and shape metrology tools",,Wafer inspection tools
+Critical dimensions metrology tools,,Wafer inspection tools
+Defect inspection tools,,Wafer inspection tools
+Chemical mechanical planarization,Assembly and packaging,
+Assembly inspection tools,,Assembly tools
+Dicing tools,,Assembly tools
+Bonding tools,,Assembly tools
+Die attaching tools,,Bonding tools
+Wire bonding tools,,Bonding tools
+Other interconnect tools,,Bonding tools
+Packaging tools,Assembly and packaging,
+Integrated assembly tools,,Assembly tools
+Assembly and packaging,Testing,
+SoC test tools,,Test tools
+Burn-in test tools,,Test tools
+Linear and discrete testing tools,,Test tools
+Handlers and probers,Testing,
+Core intellectual property,EDA and Core IP,
+Electronic design automation software,EDA and Core IP,
+CMP materials,Chemical mechanical planarization,
+Deposition materials,Deposition,
+Fabrication materials,Photolithography,
+Fabrication materials,Etch and clean,
+Fabrication materials,Chemical mechanical planarization,
+Fabrication materials,Ion implantation,
+Fabrication materials,Deposition,
+Lead frames,,Packaging materials
+Bond wires,,Packaging materials
+Ceramic packages,,Packaging materials
+Substrates,,Packaging materials
+Encapsulation resins,,Packaging materials
+Die attach materials,,Packaging materials
+Testing,Finished logic chip,
+Advanced CPUs,,Logic chip design
+Discrete GPUs,,Logic chip design
+FPGAs,,Logic chip design
+AI ASICs,,Logic chip design
+Imprint lithography,,Lithography tools
+KrF (DUV) lithography tools,,Lithography tools
+i-line lithography tools,,Lithography tools
+Direct write systems,,Maskless lithography tools
+Plasma modification tools,,Deposition tools
+Dry etch tools,,Dry etching and cleaning tools
+Dry clean tools,,Dry etching and cleaning tools
+Misc. dry etch tools,,Dry etch tools
+Ion milling tools,,Dry etching and cleaning tools
+Dry stripping tools,,Dry etching and cleaning tools
+Overlay metrology tools,,Wafer inspection tools
+E-beam metrology tools,,Wafer inspection tools
+Defect review stations,,Wafer inspection tools
+Memory test tools,,Test tools
+Fabrication tools (for advanced packaging),Assembly and packaging,
+Dry etching tools (adv. pkg.),,Etch and clean tools (adv. pkg.)
+CVD tools (adv. pkg.),,Deposition tools (adv. pkg.)
+PVD tools (adv. pkg.),,Deposition tools (adv. pkg.)
+Spin-on deposition tools (adv. pkg.),,Deposition tools (adv. pkg.)
+ECP tools (adv. pkg.),,Deposition tools (adv. pkg.)
+Memory chip design,Chip design,
+DAO chip design,Chip design,
+Logic chip design,Chip design,
+EDA and Core IP,Chip design,
+Wafer,Fabrication materials,
+Wafer and photomask handlers,Process control and handling,
+Process control tools,Process control and handling,
+Electronic gases,Fabrication materials,
+Wet chemicals,Fabrication materials,
+Assembly tools,Assembly and packaging,
+Test tools,Testing,
+Ion implanters,Ion implantation,
+Resist processing tools (adv. pkg.),,Lithography tools (adv. pkg.)
+Mask aligners,,Lithography tools
+CMP tools (adv. pkg.),,Fabrication tools (for advanced packaging)
+Single wafer spin & spray systems (adv. pkg.),,Etch and clean tools (adv. pkg.)
+ATP materials,Assembly and packaging,
+ATP materials,Testing,
+Electronic gases,ATP materials,
+Packaging materials,ATP materials,
+Process-specific fabrication materials,Fabrication materials,
+CMP materials,,Process-specific fabrication materials
+Deposition materials,,Process-specific fabrication materials
+Photomasks,,Process-specific fabrication materials
+Photoresists,,Process-specific fabrication materials
+Etch and clean tools,Etch and clean,
+Lithography tools (adv. pkg.),,Fabrication tools (for advanced packaging)
+Deposition tools (adv. pkg.),,Fabrication tools (for advanced packaging)
+Etch and clean tools (adv. pkg.),,Fabrication tools (for advanced packaging)
+Direct write systems (adv. pkg.),,Lithography tools (adv. pkg.)
+Die attaching tools for IC,,Die attaching tools
+Die attaching tools for non-IC,,Die attaching tools
+Manual wire bonders,,Wire bonding tools
+Auto ball bonders for IC,,Wire bonding tools
+Auto ball bonders for non-IC,,Wire bonding tools
+Automatic wedge bonders,,Wire bonding tools
+Wafer level stud bonders,,Wire bonding tools
+Other deposition tools (non-IC),,Deposition tools

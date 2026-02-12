@@ -1,0 +1,376 @@
+provider_name,provider_type,country
+Intel,organization,USA
+AMD,organization,USA
+Nvidia,organization,USA
+Jingjia Micro,organization,CHN
+Loongson,organization,CHN
+Zhaoxin,organization,CHN
+Phytium,organization,CHN
+Efinix,organization,CHN
+HiSilicon,organization,CHN
+Lattice,organization,USA
+Microchip,organization,USA
+Achronix,organization,USA
+Flex Logic,organization,USA
+Google,organization,USA
+Cerebras,organization,USA
+Tesla,organization,USA
+Graphcore,organization,GBR
+Cambricon,organization,CHN
+Horizon Robotics,organization,CHN
+Intellifusion,organization,CHN
+Gowin,organization,CHN
+Shenzhen Pango,organization,CHN
+Sunway,organization,CHN
+TSMC,organization,TWN
+Samsung,organization,KOR
+GlobalFoundries,organization,USA
+SMIC,organization,CHN
+UMC,organization,TWN
+Powerchip,organization,TWN
+Hua Hong,organization,CHN
+STMicroelectronics,organization,CHE
+NXP,organization,NLD
+Kioxia,organization,JPN
+ASE,organization,TWN
+Amkor,organization,USA
+JCET,organization,CHN
+TongFu,organization,CHN
+Tianshui Huatian Technology,organization,CHN
+UTAC,organization,SGP
+SK Hynix,organization,KOR
+Micron,organization,USA
+Powertech,organization,TWN
+PVA TePla,organization,DEU
+JSG,organization,CHN
+Accretech,organization,JPN
+Okamoto,organization,JPN
+Disco,organization,JPN
+Meyer Burger,organization,CHE
+Toyo,organization,JPN
+Lanzhou Rapid Equipment Manufacturing,organization,CHN
+Beijing JingYi Century Automatic Equipment,organization,CHN
+EV Group,organization,AUT
+SUSS MicroTec,organization,DEU
+Neutronix,organization,USA
+SMEE,organization,CHN
+Daifuku,organization,JPN
+Rorze,organization,JPN
+SEMES,organization,KOR
+Muratec,organization,JPN
+Gudeng,organization,TWN
+RECIF,organization,FRA
+Brooks,organization,USA
+ESI,organization,USA
+Applied Materials,organization,USA
+Nissin Ion,organization,JPN
+SMIT,organization,JPN
+Axcelis,organization,USA
+CETC,organization,CHN
+Hermes-Epitek,organization,TWN
+Kingstone Semiconductor,organization,CHN
+ASML,organization,NLD
+Nikon,organization,JPN
+NuFlare,organization,JPN
+JEOL,organization,JPN
+Vistec,organization,DEU
+Mycronic,organization,SWE
+Heidelberg Instruments,organization,DEU
+Thermo Fisher,organization,USA
+Hitachi,organization,JPN
+Zeiss,organization,DEU
+Tescan,organization,CZE
+HORIBA,organization,JPN
+Eurofins,organization,LUX
+A&D,organization,JPN
+Raith,organization,DEU
+FOCUS,organization,DEU
+Tokyo Electron,organization,JPN
+Screen,organization,JPN
+Kingsemi,organization,CHN
+Brewer Science,organization,USA
+Rite Track,organization,USA
+Lam Research,organization,USA
+ASM International,organization,NLD
+Piotech,organization,CHN
+SKY Technology Development,organization,CHN
+NAURA,organization,CHN
+Kokusai,organization,JPN
+ULVAC,organization,JPN
+KLA,organization,USA
+Mattson Tech,organization,CHN
+AP Systems,organization,KOR
+Veeco,organization,USA
+Grand Process,organization,TWN
+AMEC,organization,CHN
+Plasma-Therm,organization,USA
+SAMCO,organization,JPN
+GigaLane,organization,KOR
+Charm Engineering,organization,KOR
+EBARA,organization,JPN
+Hwatsing,organization,CHN
+KCTech,organization,KOR
+Revasum,organization,USA
+Bruker,organization,USA
+Rigaku,organization,JPN
+Raintree Scientific Instruments (RSIC),organization,CHN
+Nanotronics,organization,USA
+Onto Innovation,organization,USA
+Lasertec,organization,JPN
+CAMTEK,organization,ISR
+Keysight Tech,organization,USA
+Keithley Instruments,organization,USA
+Top Engineering,organization,KOR
+ASM Pacific,organization,SGP
+ASTI,organization,SGP
+Koh Young Tech,organization,KOR
+Cohu,organization,USA
+MIRTEC,organization,KOR
+Grand Tec,organization,CHN
+Longhill Industries,organization,CHN
+SYNOVA,organization,CHN
+Besi,organization,NLD
+Fasford Tech,organization,JPN
+Canon,organization,JPN
+Hoson,organization,CHN
+PROTEC,organization,KOR
+JIAFENG,organization,CHN
+DIAS Automation,organization,CHN
+Kulicke & Soffa,organization,SGP
+Hesse,organization,DEU
+Shinkawa,organization,JPN
+SSP,organization,KOR
+KOSES,organization,KOR
+TOWA,organization,JPN
+HANMI,organization,KOR
+Trinity Tech,organization,CHN
+Grohmann,organization,USA
+Advantest,organization,JPN
+Teradyne,organization,USA
+UniTest,organization,KOR
+DI,organization,KOR
+Micro Control,organization,USA
+National Instruments,organization,USA
+TESEC,organization,JPN
+AccoTEST,organization,CHN
+Shanghai Juno,organization,CHN
+JHT,organization,CHN
+Synopsys,organization,USA
+Cadence,organization,USA
+Mentor Graphics,organization,USA
+Ansys,organization,USA
+Silvaco,organization,USA
+PDF Solutions,organization,USA
+Huada Empyrean,organization,CHN
+Primarius,organization,CHN
+Xpeedic,organization,CHN
+Semitronix,organization,CHN
+Platform-da,organization,CHN
+Microscapes,organization,CHN
+Arcas-da,organization,CHN
+ARM,organization,GBR
+SST,organization,USA
+Imagination Technologies,organization,GBR
+Ceva,organization,USA
+Verisilicon,organization,CHN
+Rambus,organization,USA
+eMemory Technology,organization,TWN
+Shenzhen Newway,organization,CHN
+JSR,organization,JPN
+Tokyo Ohka Kogyo,organization,JPN
+Shin-Etsu,organization,JPN
+Fujifilm Electronic Materials,organization,JPN
+Dongjin,organization,KOR
+DuPont Electronic Solutions,organization,USA
+EMD Electronics,organization,USA
+Inpria,organization,USA
+Ruihong,organization,CHN
+Kempur,organization,CHN
+Nata Opto-electronic Material,organization,CHN
+JHM,organization,CHN
+Fujimi,organization,JPN
+Saint-Gobain,organization,FRA
+Versum Materials,organization,USA
+DuPont,organization,USA
+Thomas West,organization,USA
+SUMCO,organization,JPN
+GlobalWafers,organization,TWN
+Siltronic,organization,DEU
+SK Siltron,organization,KOR
+Okmetic,organization,CHN
+JRH,organization,CHN
+Zhonghuan Semiconductor,organization,CHN
+Gritek,organization,CHN
+MCL,organization,CHN
+Simgui,organization,CHN
+GuoSheng,organization,CHN
+POSHING,organization,CHN
+ZingSEMI,organization,CHN
+Dai Nippon,organization,JPN
+Photronics,organization,USA
+Toppan Photomasks,organization,JPN
+Hoya Corporation,organization,JPN
+Taiwan Mask Corporation,organization,TWN
+Merck Group,organization,DEU
+CMC,organization,USA
+Anji,organization,CHN
+Hubei Dinglong,organization,CHN
+JX Nippon,organization,JPN
+Honeywell,organization,USA
+Tosoh SMD,organization,JPN
+Linde,organization,DEU
+Praxair,organization,USA
+KFMI,organization,CHN
+Grikin,organization,CHN
+Entegris,organization,USA
+Air Products,organization,USA
+Air Liquide,organization,FRA
+BASF,organization,DEU
+TNSC,organization,JPN
+Showa Denko,organization,JPN
+Wonik,organization,KOR
+SK Materials,organization,KOR
+Huate Gas,organization,CHN
+Jinhong Gas,organization,CHN
+PERIC,organization,CHN
+KMG Chemicals,organization,USA
+Avantor,organization,USA
+Kanto Chemical,organization,JPN
+Runma,organization,CHN
+Sinophorus,organization,CHN
+Sinyang,organization,CHN
+Yongzhi,organization,CHN
+Heraeus,organization,DEU
+Tanaka Denshi,organization,JPN
+Nippon Micro,organization,JPN
+Doublink,organization,CHN
+Kangqiang,organization,CHN
+YesDo,organization,CHN
+QP Technologies,organization,USA
+NGK,organization,JPN
+Alent,organization,GBR
+Kyocera,organization,JPN
+LG,organization,KOR
+Sumitomo,organization,JPN
+Mitsui High-Tec,organization,JPN
+Henkel,organization,DEU
+Toray,organization,JPN
+Tanaka,organization,JPN
+Zhongwei,organization,CHN
+Yixing,organization,CHN
+Ibiden,organization,JPN
+NanYa,organization,TWN
+Shinko,organization,JPN
+Shennan Circuits,organization,CHN
+Zhuhai Yueya,organization,CHN
+AKM,organization,CHN
+Sinopaco,organization,CHN
+HHCK,organization,CHN
+Darbond,organization,CHN
+Hysol Huawei,organization,CHN
+SH Material,organization,JPN
+Ningbo Hualong,organization,CHN
+Pureon,organization,USA
+Renesas,organization,JPN
+EUR,country,EUR
+ACM Research,organization,USA
+Aehr Test Systems,organization,USA
+Aemulus,organization,MYS
+APIC Yamada,organization,JPN
+Canon,organization,JPN
+Canon,organization,JPN
+Chroma ATE,organization,TWN
+ELES Semiconductor Equipment,organization,ITA
+EO Technics,organization,KOR
+Eugene Technology,organization,KOR
+Evatec,organization,CHE
+Exicon,organization,KOR
+FormFactor,organization,USA
+Graco,organization,USA
+Hangzhou Changchuan Technology,organization,CHN
+Hanwha Precision Machinery,organization,KOR
+Hon Technologies,organization,TWN
+IMS Nanofabrication,organization,AUT
+Incal Technology,organization,USA
+Iwashita Engineering,organization,JPN
+JT Corp.,organization,KOR
+Jusung Engineering,organization,KOR
+MingSeal,organization,CHN
+Muehlbauer,organization,DEU
+Musashi Engineering,organization,JPN
+Nordson,organization,USA
+Nova,organization,ISR
+Oxford Instruments,organization,GBR
+Pentamaster,organization,MYS
+Precision Valve & Automation,organization,USA
+PSK,organization,KOR
+Semics,organization,KOR
+Semilab,organization,HUN
+Shenzhen Axxon Automation,organization,SWE
+Tensun,organization,CHN
+ShibaSoku,organization,JPN
+Shibaura Mechatronics,organization,JPN
+Shimadzu,organization,JPN
+TechWing,organization,KOR
+Trymax,organization,NLD
+UnitySC,organization,FRA
+YEST,organization,KOR
+YIKC,organization,KOR
+YoungTek Electronics (YTEC),organization,TWN
+All Ring Tech,organization,TWN
+BLUE Engineering,organization,KOR
+Thermco Epitaxy,organization,GBR
+Dongfang Jingyuan Electron Ltd.,organization,CHN
+Electroplating Engineers of Japan,organization,JPN
+F&K Delvotec,organization,DEU
+Innogrity,organization,SGP
+Intekplus,organization,KOR
+KES Systems,organization,USA
+Leading Precision,organization,TWN
+STATEC,organization,KOR
+STK Technology,organization,JPN
+Tokyo Weld,organization,JPN
+Trio-Tech International,organization,USA
+Trion Technology,organization,USA
+Onto Innovation,organization,USA
+Onto Innovation,organization,USA
+Various companies,organization,Various countries
+Ushio,organization,JPN
+Panasonic,organization,JPN
+EDA Industries,organization,ITA
+Koyo Machinery,organization,USA
+TES,organization,KOR
+Minami,organization,JPN
+SAEJONG IND,organization,KOR
+MACHVISION,organization,TWN
+Shibuya Kogyo,organization,JPN
+SPEA,organization,ITA
+Genesem,organization,KOR
+SINGULUS TECHNOLOGIES,organization,DEU
+Vermes,organization,DEU
+Ultrasonic Engineering,organization,JPN
+Mirae,organization,KOR
+Electro Scientific Industries,organization,USA
+Royce Instruments,organization,USA
+Gallant Precision Machining,organization,TWN
+Focused Test,organization,USA
+Holon,organization,JPN
+Manufacturing Integration Tech,organization,SGP
+SCANNER TECH,organization,USA
+Auros Technology,organization,KOR
+E&R Engineering,organization,TWN
+KBTEM,organization,BLR
+Amerimade Technology,organization,USA
+Nextin,organization,KOR
+Park Systems,organization,KOR
+Zygo,organization,USA
+KAIJO,organization,JPN
+Riber,organization,FRA
+LPE,organization,ITA
+Aixtron,organization,DEU
+Jingsheng Electromechanical,organization,CHN
+Shenzhen Naso Tech Co.,organization,CHN
+Intevac,organization,USA
+Palomar Technologies,organization,USA
+PacTech,organization,JPN
+Component Technology,organization,SGP
