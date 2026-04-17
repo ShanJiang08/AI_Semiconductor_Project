@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Semiconductor Supply Chain</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header id="site-header">
+      <h1>AI Semiconductor Ecosystem</h1>
+      <p class="byline">Student: Shan Jiang<br>Supervisor: Oluwakemi Ola</p>
+    </header>
+
+    <main id="narrative">
+
+      <section class="section intro-section">
+      <h2 class="rq-title">Introduction</h2>
+      <p class="body-text">
+        With the Fourth Industrial Revolution, we are witnessing the rise of various emerging technologies, including artificial intelligence (AI), cloud computing, and big data.
+        These technologies are transforming our lifestyles, continuously improving productivity while driving the advancement of intelligent systems.
+        Among them, the development of artificial intelligence stands out.
+        In recent years, the emergence of various large language models has significantly enhanced machines' ability to handle complex tasks, leading to widespread applications in fields such as autonomous driving, medical image analysis, and speech recognition.
+      </p>
+
+      <p class="body-text">
+        However, when discussing AI, people often focus on model algorithms and performance improvements while overlooking the underlying computational power that supports them.
+        In fact, the rapid growth of AI is inseparable from its foundational hardware infrastructure.
+        As model versions continue to evolve, the computational power demands of AI are also growing rapidly, which further drives the development of the semiconductor manufacturing industry.
+        Therefore, this project aims to use visualization to illustrate this complex AI semiconductor ecosystem, covering areas from raw materials to production manufacturing, as well as trade and investment, to provide a comprehensive understanding of the fundamental support behind AI development.
+      </p>
+
+      <h2 class="rq-title">Raw Materials</h2>
+      <p class="body-text">
+        According to an article by Streets (2025) published on TechTarget, the manufacture of semiconductor chips relies on three key raw materials: silicon (Si), germanium (Ge), and gallium arsenide (GaAs).
+      </p>
+
+      <p class="body-text">
+        Silicon is sourced from quartzite and silica sand deposits, and is mainly produced in China, Russia, Brazil, United States, and Norway.
+        Germanium is a byproduct of zinc ore processing and coal ash, and is mainly supplied by China, Canada, Finland, Russia, and United States.
+        Gallium arsenide is composed of two elements, with gallium as a byproduct of bauxite and zinc processing, and arsenic as a byproduct of copper mining. It is mainly sourced from China and Japan.
+      </p>
+
+      <p class="body-text">
+        Through observation, China participates in the production of all three raw materials, while Russia and the United States produce the first two.
+        This raises a key question, which countries have the greatest deposits, and how much is each raw material sold for?
+        The following visualization explores these questions.
+      </p>
+      </section>
+
+      <section class="section" id="rq1">
+        <h2 class="rq-title">
+          Research Question 1: Which country has the greatest deposits and how much are they sold off?
+        </h2>
+        <p class="body-text">
+          This visualization shows the production share of four key raw materials across different countries.
+          It is worth noting that the most recent data for germanium is from 2020, while the rest is from 2023.
+          The pie chart on the left shows the overall production share by country, with colors categorized by continent.
+          Hovering over the chart will display the specific share for each country.
+          For silicon, clicking “Other countries” will expand the bar chart on the right, presenting detailed distribution data for countries other than China.
+          Meanwhile, the dropdown menu allows switching between different raw materials.
+        </p>
+
+        <p class="body-text">
+          From these visualizations, it is evident that China dominates the production of most raw materials.
+          In silicon production, China accounts for 75.4%, followed by Russia with 25.7% and Brazil with 16.3%.
+          In germanium production, China occupies the majority share of 67.9%.
+          In gallium production, China produces nearly the entire output, reaching 98.6%.
+          The distribution of arsenic is relatively balanced, with Peru holding 48.7% and China 39.0%.
+          Understanding the distribution of raw material sources helps provide further insight into the supply structure at each stage of the semiconductor manufacturing chain.
+        </p>
+        <div class="rq1-switcher">
+          <button class="rq1-btn active" onclick="showRQ1('silicon', this)">Silicon</button>
+          <button class="rq1-btn" onclick="showRQ1('other', this)">Germanium / Gallium / Arsenic</button>
+        </div>
+        <div class="chart-bare" id="rq1-silicon">
+          <iframe src="docs/rq1_silicon.html" scrolling="no" style="height:410px"></iframe>
+        </div>
+        <div class="chart-bare" id="rq1-other" style="display:none">
+          <iframe src="docs/rq1_other.html" scrolling="no" style="height:410px"></iframe>
+        </div>
+      </section>
+
+      <section class="section" id="rq2">
+        <h2 class="rq-title">
+          Research Question 2: In each stage of semiconductor manufacturing, which companies or countries dominate the supply of inputs?
+        </h2>
+        <p class="body-text">
+          This visualization displays the input materials used at each stage and their leading suppliers in the semiconductor manufacturing process.
+          The top shows the complete manufacturing process, starting with chip design, followed by deposition, photolithography, etch & clean, ion implantation, mechanical planarization, assembly and packaging, testing, and eventually resulting in a finished logic chip.
+          Clicking on any stage button will reveal the main suppliers of input materials for that stage and their market shares.
+          Hovering the mouse over a bar provides specific supplier names with corresponding market shares.
+        </p>
+
+        <p class="body-text"></p>
+          The data reveals a highly concentrated market at each stage.
+          In the chip design stage, United States controls 65% of the logic chip design market, while South Korea holds a 60% share in memory chip design.
+          In the photolithography stage, ASML dominates 100% on EUV lithography tools.
+          This highly concentrated supply structure raises the following question for the next stage.
+          When trade interventions occur, which countries will be the most affected?
+        </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq2.html" scrolling="yes" style="height:700px"></iframe>
+        </div>
+      </section>
+
+      <section class="section" id="rq3">
+        <h2 class="rq-title">
+          Research Question 3: Which jurisdictions are implementing semiconductor trade interventions, and which countries are most frequently targeted?
+        </h2>
+        <p class="body-text">
+          This visualization presents the targeted frequency of semiconductor trade interventions across different countries.
+          The stacked bar chart shows the cumulative number of interventions for each targeted country, with different colors representing different implementing jurisdictions.
+          Clicking the year slider displays the trend of intervention counts over time, and selecting different implementing jurisdictions from the dropdown menu enables observation of the distribution across different implementing entities.
+        </p>
+
+        <p class="body-text"></p>
+          The chart shows that Russia and China are the most frequently targeted countries, followed by the United Arab Emirates, Hong Kong, China, India, and Singapore.
+          Among these interventions, United States and European Union account for a higher proportion.
+          This pattern reflects that interventions are primarily concentrated among a small number of countries, which subsequently impacts price fluctuations.
+        </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq3.html" scrolling="no" style="height:460px"></iframe>
+        </div>
+      </section>
+
+      <section class="section" id="rq4">
+        <h2 class="rq-title">
+          Research Question 4: How does the chip price vary across AI milestones?
+        </h2>
+        <p class="body-text">
+          This visualization shows the changes in the chip price index over different time periods.
+          The line chart tracks price trends from 2015 to 2025, with two vertical dashed lines labeling key milestones respectively at the OpenAI founding (2018) and the ChatGPT release (2022).
+          Hovering over the line will present the specific price values corresponding to each point in time.
+        </p>
+
+        <p class="body-text">
+          From the chart, the price declined from 2015 to 2020, began to recover after 2021, and continued to rise after 2022, reaching its peak in 2025.
+          This implies that after the accelerated development of AI, the price of chips has shown a significant upward trend.
+          Among such price fluctuations, it is worth comparing the levels of investment in semiconductor manufacturing across different countries.
+        </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq4.html" scrolling="no" style="height:450px"></iframe>
+        </div>
+      </section>
+
+      <section class="section" id="rq5">
+        <h2 class="rq-title">
+          Research Question 5: Which country invests the most in semiconductor manufacturing, and how is investment distributed across economic activities?
+        </h2>
+        <p class="body-text">
+          This visualization presents investment distribution across different countries in semiconductor manufacturing, and the allocation of investments across various economic activities.
+          The stacked bar chart at the top shows the total investment amounts for each country, with different colors representing different economic activities.
+          The line chart below shows the investment trends for the top 5 countries from 2018 to 2022.
+          Moving the year slider updates the current year, and the red dotted line moves to the corresponding year.
+          Hovering over the chart provides details on specific countries and investment amounts, also highlighting the same country in both charts.
+        </p>
+
+        <p class="body-text">
+          As shown in the chart, investment in the United States is much higher than in other countries and has shown a steady upward trend overall.
+          China, South Korea, and Chinese Taipei have also seen growth, but on a smaller scale.
+          The distribution of investment across the two economic activities also varies by country, making it worthwhile to explore their specific investment directions based on individual companies.
+        </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq5.html" scrolling="no" style="height:650px"></iframe>
+        </div>
+      </section>
+
+      <section class="section" id="rq6">
+        <h2 class="rq-title">
+          Research Question 6: How do top semiconductor companies allocate investment between R&D and capital expenditure?
+        </h2>
+        <p class="body-text">
+          This visualization presents the investment distribution of the top 20 semiconductor companies in R&D and Capex.
+          For clarity, R&D refers to Research & Development, while capex focuses primarily on expenditures related to hardware manufacturing.
+          The bar chart at the top displays both investment metrics, with R&D on the left and capex on the right, where companies marked with an * appear in both top 20 lists.
+          The scatter plot below visualizes each company's relationship in R&D and Capex, with point size representing employee scale.
+          Clicking on either chart highlights the corresponding company.
+          Shift+click can compare multiple companies across both charts simultaneously.
+          Hovering over a point displays its specific values, and switching between investment types shows different top 20 rankings.
+        </p>
+
+        <p class="body-text">
+          These charts reveal that companies such as Amazon, Alphabet, and Microsoft invest more in R&D, while Samsung and TSMC lead in Capex.
+          Companies in the top-right quadrant feature both high R&D and high capex, reflecting heavy investment in both technological innovation and hardware expansion.
+          This distribution of investment across these two categories varies significantly among companies, raising questions about whether these investment strategies impact corporate profitability.
+        </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq6.html" scrolling="no" style="height:800px"></iframe>
+        </div>
+      </section>
+
+      <section class="section" id="rq7">
+        <h2 class="rq-title">
+          Research Question 7: How does R&D or capital investment intensity relate to profitability among semiconductor companies, and does this vary across industry sectors?
+        </h2>
+        <p class="body-text">
+          This visualization explores the relationship between investment intensity and profitability among semiconductor companies.
+          The x-axis of the scatter plot represents R&D intensity on a log scale, while the y-axis represents profitability.
+          Different colors correspond to different continents.
+          Clicking “Investment Type” to switch between R&D and Capex intensity, using the “Industry Sector” dropdown menu to filter by industry, and hovering over each data point to view specific company details.
+        </p>
+
+        <p class="body-text">
+          From this chart, most companies cluster within a range of moderate investment intensity between 5% and 20% and profitability ranging from near 0% to 20%.
+          When investment intensity is higher, the distribution of profitability becomes more spread out.
+          For example, INDIE Semiconductor, Inc. invests an R&D intensity of 80.8%, but its profitability is −76.5%, implying that high investment intensity does not necessarily correspond to high profitability, and there are also variations across different industries.
+        </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq7.html" scrolling="no" style="height:500px"></iframe>
+        </div>
+      </section>
+
+      <section class="section conclusion-section">
+        <h2 class="rq-title">Conclusion</h2>
+        <p class="body-text">
+          From the prior analysis, the semiconductor industry is driven by a series of interconnected factors, ranging from raw materials, manufacturing, trade, pricing, to investment.
+          The production of raw materials is highly concentrated in a few countries, with China dominating the majority.
+          As the supply chain moves into the trade phase, most targeted interventions are also centered within a few critical countries, indicating increasingly concentrated competition in the semiconductor sector.
+          Driving this trend, chip prices have risen significantly in recent years due to advancements in AI technology, drawing greater attention to investment shifts at both the country and company levels.
+        </p>
+
+        <p class="body-text">
+          The United States leads in semiconductor investment, while companies vary widely in their prioritization of R&D or Capex.
+          Some emphasize research and development, while others focus on expanding hardware manufacturing.
+          Furthermore, higher investment intensity is not inherently correlated with greater profitability, revealing that increased spending is not guaranteed to yield better outcomes.
+          In summary, the semiconductor industry has become increasingly concentrated and complex.
+        </p>
+      </section>
+
+    </main>
+
+    <script>
+    function showRQ1(which, btn) {
+      document.getElementById('rq1-silicon').style.display = which === 'silicon' ? 'block' : 'none';
+      document.getElementById('rq1-other').style.display = which === 'other' ? 'block' : 'none';
+      document.querySelectorAll('.rq1-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+    </script>
+
+  </body>
+</html>
