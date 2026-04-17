@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}}, "vconcat": [{"data": {"name": "data-da9edaf61ac7a832abd667404b00f296"}, "mark": {"type": "text", "align": "center", "fontSize": 16, "fontWeight": "normal"}, "encoding": {"text": {"field": "title", "type": "nominal"}, "x": {"value": 250.0}, "y": {"value": 17}}, "height": 24, "transform": [{"filter": "datum.material == RawMaterial"}], "width": 500}, {"hconcat": [{"layer": [{"mark": {"type": "arc", "outerRadius": 85, "stroke": "white", "strokeWidth": 2}, "encoding": {"color": {"field": "country", "legend": null, "scale": {"domain": ["China", "Russia", "Other", "Japan", "Peru", "Morocco", "Belgium"], "range": ["#F0997B", "#97C459", "#B8D4E8", "#F0997B", "#B4B2A9", "#FAC775", "#97C459"]}, "type": "nominal"}, "theta": {"field": "pct", "stack": true, "type": "quantitative"}, "tooltip": [{"field": "country", "title": "Country", "type": "nominal"}, {"field": "continent", "title": "Continent", "type": "nominal"}, {"field": "pct", "format": ".1f", "title": "Share (%)", "type": "quantitative"}]}, "transform": [{"filter": "datum.material == RawMaterial"}]}, {"mark": {"type": "text", "fontSize": 12, "fontWeight": "bold", "radius": 130}, "encoding": {"color": {"field": "country", "legend": null, "scale": {"domain": ["China", "Russia", "Other", "Japan", "Peru", "Morocco", "Belgium"], "range": ["#F0997B", "#97C459", "#B8D4E8", "#F0997B", "#B4B2A9", "#FAC775", "#97C459"]}, "type": "nominal"}, "text": {"field": "label", "type": "nominal"}, "theta": {"field": "pct", "stack": true, "type": "quantitative"}}, "transform": [{"filter": "datum.material == RawMaterial"}, {"window": [{"op": "rank", "field": "pct", "as": "rank"}], "sort": [{"field": "pct", "order": "descending"}]}, {"calculate": "(datum.rank <= 3 && datum.pct >= 8) ? datum.country + ': ' + format(datum.pct, '.1f') + '%' : ''", "as": "label"}]}], "data": {"name": "data-c53f77c2cb234ec067da277eea2e55a5"}, "height": 300, "width": 320}, {"layer": [{"data": {"name": "data-a4b550381faf74bc62ac66de2b4165c5"}, "mark": {"type": "text", "align": "left", "fontSize": 13, "fontWeight": "bold"}, "encoding": {"text": {"field": "label", "type": "nominal"}, "x": {"axis": null, "field": "x", "type": "quantitative"}, "y": {"axis": null, "field": "y", "type": "quantitative"}}}, {"data": {"name": "data-d6de49241fbb86a0ee272487c89ffd78"}, "mark": {"type": "point", "filled": true, "size": 100}, "encoding": {"color": {"field": "continent", "legend": null, "scale": {"domain": ["Asia", "Africa", "Europe", "North America", "South America", "Oceania", "Not specified"], "range": ["#F0997B", "#FAC775", "#97C459", "#AFA9EC", "#B4B2A9", "#85B7EB", "#B8D4E8"]}, "type": "nominal"}, "x": {"axis": null, "field": "x", "type": "quantitative"}, "y": {"axis": null, "field": "y", "type": "quantitative"}}}, {"data": {"name": "data-d6de49241fbb86a0ee272487c89ffd78"}, "mark": {"type": "text", "align": "left", "dx": 14, "fontSize": 12}, "encoding": {"text": {"field": "continent", "type": "nominal"}, "x": {"axis": null, "field": "x", "type": "quantitative"}, "y": {"axis": null, "field": "y", "type": "quantitative"}}}], "height": 300, "width": 160}], "resolve": {"scale": {"color": "independent", "x": "independent", "y": "independent"}}, "spacing": 20}], "params": [{"name": "RawMaterial", "bind": {"input": "select", "options": ["Germanium", "Gallium", "Arsenic"], "name": "Raw material: "}, "value": "Germanium"}], "spacing": 8, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-da9edaf61ac7a832abd667404b00f296": [{"material": "Germanium", "title": "Germanium Production Proportion by Country in 2020 (1392 USD/kg)"}, {"material": "Gallium", "title": "Gallium Production Proportion by Country in 2023 (450 USD/kg)"}, {"material": "Arsenic", "title": "Arsenic Production Proportion by Country in 2023 (2.05 USD/kg)"}], "data-c53f77c2cb234ec067da277eea2e55a5": [{"country": "China", "pct": 67.9, "continent": "Asia", "material": "Germanium"}, {"country": "Russia", "pct": 3.6, "continent": "Europe", "material": "Germanium"}, {"country": "Other", "pct": 28.6, "continent": "Not specified", "material": "Germanium"}, {"country": "China", "pct": 98.6, "continent": "Asia", "material": "Gallium"}, {"country": "Russia", "pct": 1.0, "continent": "Europe", "material": "Gallium"}, {"country": "Japan", "pct": 0.5, "continent": "Asia", "material": "Gallium"}, {"country": "Peru", "pct": 48.7, "continent": "South America", "material": "Arsenic"}, {"country": "China", "pct": 39.0, "continent": "Asia", "material": "Arsenic"}, {"country": "Morocco", "pct": 9.7, "continent": "Africa", "material": "Arsenic"}, {"country": "Belgium", "pct": 1.6, "continent": "Europe", "material": "Arsenic"}, {"country": "Russia", "pct": 0.8, "continent": "Europe", "material": "Arsenic"}, {"country": "Japan", "pct": 0.1, "continent": "Asia", "material": "Arsenic"}], "data-a4b550381faf74bc62ac66de2b4165c5": [{"x": 1, "y": 8, "label": "Continent"}], "data-d6de49241fbb86a0ee272487c89ffd78": [{"continent": "Asia", "x": 1, "y": 7}, {"continent": "Africa", "x": 1, "y": 6}, {"continent": "Europe", "x": 1, "y": 5}, {"continent": "North America", "x": 1, "y": 4}, {"continent": "South America", "x": 1, "y": 3}, {"continent": "Oceania", "x": 1, "y": 2}, {"continent": "Not specified", "x": 1, "y": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
