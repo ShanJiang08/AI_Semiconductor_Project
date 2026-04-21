@@ -1,4 +1,4 @@
-# AI Semiconductor Ecosystem
+# AI Semiconductor Project
 An interactive visualization project exploring the global AI semiconductor ecosystem.
 
 **Website**  
