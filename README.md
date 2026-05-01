@@ -1,10 +1,10 @@
 # AI Semiconductor Ecosystem
 An interactive visualization project exploring the global AI semiconductor ecosystem.
 
-**Website**
+**Website**  
 https://shanjiang08.github.io/AI_Semiconductor_Project/
 
-**Overview**
+**Overview**  
 With the rapid development of artificial intelligence, the demand for computational power continues to grow. As a result, semiconductors have become an essential foundation supporting modern AI systems. This project aims to provide a more comprehensive understanding of the semiconductor ecosystem from multiple perspectives, including raw materials, semiconductor manufacturing, trade interventions, chip price trends, and investment patterns.
 
 **Project Scope**  
