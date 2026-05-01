@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}}, "vconcat": [{"data": {"name": "data-fb73d4f568256bfe61b8f2452eb957d2"}, "mark": {"type": "text", "align": "center", "fontSize": 16, "fontWeight": "normal"}, "encoding": {"text": {"field": "title", "type": "nominal"}, "x": {"value": 250.0}, "y": {"value": 17}}, "height": 24, "width": 500}, {"hconcat": [{"layer": [{"mark": {"type": "arc", "outerRadius": 85, "stroke": "white", "strokeWidth": 2}, "encoding": {"color": {"field": "country", "legend": null, "scale": {"domain": ["Peru", "China", "Morocco", "Belgium", "Russia", "Japan"], "range": ["#B4B2A9", "#F0997B", "#FAC775", "#97C459", "#97C459", "#F0997B"]}, "type": "nominal"}, "theta": {"field": "pct", "stack": true, "type": "quantitative"}, "tooltip": [{"field": "country", "title": "Country", "type": "nominal"}, {"field": "continent", "title": "Continent", "type": "nominal"}, {"field": "pct", "format": ".1f", "title": "Share (%)", "type": "quantitative"}]}}, {"mark": {"type": "text", "fontSize": 12, "fontWeight": "bold", "radius": 130}, "encoding": {"color": {"field": "country", "legend": null, "scale": {"domain": ["Peru", "China", "Morocco", "Belgium", "Russia", "Japan"], "range": ["#B4B2A9", "#F0997B", "#FAC775", "#97C459", "#97C459", "#F0997B"]}, "type": "nominal"}, "text": {"field": "label", "type": "nominal"}, "theta": {"field": "pct", "stack": true, "type": "quantitative"}}, "transform": [{"window": [{"op": "rank", "field": "pct", "as": "rank"}], "sort": [{"field": "pct", "order": "descending"}]}, {"calculate": "(datum.rank <= 3 && datum.pct >= 8) ? datum.country + ': ' + format(datum.pct, '.1f') + '%' : ''", "as": "label"}]}], "data": {"name": "data-14d621927b1a41f931d707d819c207b1"}, "height": 300, "width": 320}, {"layer": [{"data": {"name": "data-a4b550381faf74bc62ac66de2b4165c5"}, "mark": {"type": "text", "align": "left", "fontSize": 13, "fontWeight": "bold"}, "encoding": {"text": {"field": "label", "type": "nominal"}, "x": {"axis": null, "field": "x", "type": "quantitative"}, "y": {"axis": null, "field": "y", "type": "quantitative"}}}, {"data": {"name": "data-d6de49241fbb86a0ee272487c89ffd78"}, "mark": {"type": "point", "filled": true, "size": 100}, "encoding": {"color": {"field": "continent", "legend": null, "scale": {"domain": ["Asia", "Africa", "Europe", "North America", "South America", "Oceania", "Not specified"], "range": ["#F0997B", "#FAC775", "#97C459", "#AFA9EC", "#B4B2A9", "#85B7EB", "#B8D4E8"]}, "type": "nominal"}, "x": {"axis": null, "field": "x", "type": "quantitative"}, "y": {"axis": null, "field": "y", "type": "quantitative"}}}, {"data": {"name": "data-d6de49241fbb86a0ee272487c89ffd78"}, "mark": {"type": "text", "align": "left", "dx": 14, "fontSize": 12}, "encoding": {"text": {"field": "continent", "type": "nominal"}, "x": {"axis": null, "field": "x", "type": "quantitative"}, "y": {"axis": null, "field": "y", "type": "quantitative"}}}], "height": 300, "width": 160}], "resolve": {"scale": {"color": "independent", "x": "independent", "y": "independent"}}, "spacing": 20}], "spacing": 8, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-fb73d4f568256bfe61b8f2452eb957d2": [{"title": "Arsenic Production Proportion by Country in 2023 (2.05 USD/kg)"}], "data-14d621927b1a41f931d707d819c207b1": [{"country": "Peru", "pct": 48.7, "continent": "South America"}, {"country": "China", "pct": 39.0, "continent": "Asia"}, {"country": "Morocco", "pct": 9.7, "continent": "Africa"}, {"country": "Belgium", "pct": 1.6, "continent": "Europe"}, {"country": "Russia", "pct": 0.8, "continent": "Europe"}, {"country": "Japan", "pct": 0.1, "continent": "Asia"}], "data-a4b550381faf74bc62ac66de2b4165c5": [{"x": 1, "y": 8, "label": "Continent"}], "data-d6de49241fbb86a0ee272487c89ffd78": [{"continent": "Asia", "x": 1, "y": 7}, {"continent": "Africa", "x": 1, "y": 6}, {"continent": "Europe", "x": 1, "y": 5}, {"continent": "North America", "x": 1, "y": 4}, {"continent": "South America", "x": 1, "y": 3}, {"continent": "Oceania", "x": 1, "y": 2}, {"continent": "Not specified", "x": 1, "y": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
