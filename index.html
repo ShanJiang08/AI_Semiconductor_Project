@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Semiconductor Supply Chain</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      sup a {
+        color: #2563eb;
+        text-decoration: none;
+        font-size: 0.75em;
+        font-weight: 600;
+      }
+      sup a:hover {
+        text-decoration: underline;
+      }
+
+      #references {
+        border-top: 2px solid #e5e7eb;
+        margin-top: 3rem;
+        padding: 2rem 0 3rem;
+      }
+      #references h2 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 1.25rem;
+      }
+      #references ol {
+        padding-left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+      }
+      #references li {
+        font-size: 0.875rem;
+        line-height: 1.6;
+        color: #374151;
+      }
+      #references li a {
+        color: #2563eb;
+        word-break: break-all;
+      }
+      #references li a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
 
@@ -33,7 +73,7 @@
 
       <h2 class="rq-title">Raw Materials</h2>
       <p class="body-text">
-        According to an article by Streets (2025) published on TechTarget, the manufacture of semiconductor chips relies on three key raw materials: silicon (Si), germanium (Ge), and gallium arsenide (GaAs).
+        According to an article by Streets (2025) published on TechTarget, the manufacture of semiconductor chips relies on three key raw materials: silicon (Si), germanium (Ge), and gallium arsenide (GaAs).<sup><a href="#ref-1">[1]</a></sup>
       </p>
 
       <p class="body-text">
@@ -55,31 +95,41 @@
         </h2>
         <p class="body-text">
           This visualization shows the production share of four key raw materials across different countries.
-          It is worth noting that the most recent data for germanium is from 2020, while the rest is from 2023.
-          The pie chart on the left shows the overall production share by country, with colors categorized by continent.
+          It is worth noting that the most recent data for germanium is from 2020, while the rest is from 2023.<sup><a href="#ref-2">[2]</a><a href="#ref-3">[3]</a><a href="#ref-4">[4]</a><a href="#ref-5">[5]</a></sup>
+          Prices are sourced from the USGS Mineral Commodity Summaries 2025.<sup><a href="#ref-6">[6]</a></sup>
+          The pie chart shows the overall production share by country, with colors categorized by continent.
           Hovering over the chart will display the specific share for each country.
-          For silicon, clicking “Other countries” will expand the bar chart on the right, presenting detailed distribution data for countries other than China.
-          Meanwhile, the dropdown menu allows switching between different raw materials.
+          For silicon, clicking "Other countries" will expand the bar chart on the right, presenting detailed distribution data for countries other than China.
+          Use the buttons below to switch between the four raw materials.
         </p>
+
+        <div class="rq1-switcher">
+          <button class="rq1-btn active" onclick="showRQ1('silicon', this)">Silicon</button>
+          <button class="rq1-btn" onclick="showRQ1('germanium', this)">Germanium</button>
+          <button class="rq1-btn" onclick="showRQ1('gallium', this)">Gallium</button>
+          <button class="rq1-btn" onclick="showRQ1('arsenic', this)">Arsenic</button>
+        </div>
+        <div class="chart-bare" id="rq1-silicon">
+          <iframe src="docs/rq1_silicon.html" scrolling="no" style="height:410px"></iframe>
+        </div>
+        <div class="chart-bare" id="rq1-germanium" style="display:none">
+          <iframe src="docs/rq1_germanium.html" scrolling="no" style="height:410px"></iframe>
+        </div>
+        <div class="chart-bare" id="rq1-gallium" style="display:none">
+          <iframe src="docs/rq1_gallium.html" scrolling="no" style="height:410px"></iframe>
+        </div>
+        <div class="chart-bare" id="rq1-arsenic" style="display:none">
+          <iframe src="docs/rq1_arsenic.html" scrolling="no" style="height:410px"></iframe>
+        </div>
 
         <p class="body-text">
           From these visualizations, it is evident that China dominates the production of most raw materials.
-          In silicon production, China accounts for 75.4%, followed by Russia with 25.7% and Brazil with 16.3%.
+          In silicon production, China accounts for 75.4%, and for the remaining 24.6%, a quarter of that 25.7 is from Russia.
           In germanium production, China occupies the majority share of 67.9%.
           In gallium production, China produces nearly the entire output, reaching 98.6%.
           The distribution of arsenic is relatively balanced, with Peru holding 48.7% and China 39.0%.
           Understanding the distribution of raw material sources helps provide further insight into the supply structure at each stage of the semiconductor manufacturing chain.
         </p>
-        <div class="rq1-switcher">
-          <button class="rq1-btn active" onclick="showRQ1('silicon', this)">Silicon</button>
-          <button class="rq1-btn" onclick="showRQ1('other', this)">Germanium / Gallium / Arsenic</button>
-        </div>
-        <div class="chart-bare" id="rq1-silicon">
-          <iframe src="docs/rq1_silicon.html" scrolling="no" style="height:410px"></iframe>
-        </div>
-        <div class="chart-bare" id="rq1-other" style="display:none">
-          <iframe src="docs/rq1_other.html" scrolling="no" style="height:410px"></iframe>
-        </div>
       </section>
 
       <section class="section" id="rq2">
@@ -87,22 +137,21 @@
           Research Question 2: In each stage of semiconductor manufacturing, which companies or countries dominate the supply of inputs?
         </h2>
         <p class="body-text">
-          This visualization displays the input materials used at each stage and their leading suppliers in the semiconductor manufacturing process.
-          The top shows the complete manufacturing process, starting with chip design, followed by deposition, photolithography, etch & clean, ion implantation, mechanical planarization, assembly and packaging, testing, and eventually resulting in a finished logic chip.
+          This visualization displays the input materials used at each stage and their leading suppliers in the semiconductor manufacturing process.<sup><a href="#ref-7">[7]</a></sup>
+          The top shows the complete manufacturing process, starting with chip design, followed by deposition, photolithography, etch &amp; clean, ion implantation, mechanical planarization, assembly and packaging, testing, and eventually resulting in a finished logic chip.
           Clicking on any stage button will reveal the main suppliers of input materials for that stage and their market shares.
-          Hovering the mouse over a bar provides specific supplier names with corresponding market shares.
         </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq2.html" scrolling="yes" style="height:700px"></iframe>
+        </div>
 
-        <p class="body-text"></p>
+        <p class="body-text">
           The data reveals a highly concentrated market at each stage.
           In the chip design stage, United States controls 65% of the logic chip design market, while South Korea holds a 60% share in memory chip design.
           In the photolithography stage, ASML dominates 100% on EUV lithography tools.
           This highly concentrated supply structure raises the following question for the next stage.
           When trade interventions occur, which countries will be the most affected?
         </p>
-        <div class="chart-bare">
-          <iframe src="docs/rq2.html" scrolling="yes" style="height:700px"></iframe>
-        </div>
       </section>
 
       <section class="section" id="rq3">
@@ -110,19 +159,19 @@
           Research Question 3: Which jurisdictions are implementing semiconductor trade interventions, and which countries are most frequently targeted?
         </h2>
         <p class="body-text">
-          This visualization presents the targeted frequency of semiconductor trade interventions across different countries.
+          This visualization presents the targeted frequency of semiconductor trade interventions across different countries.<sup><a href="#ref-8">[8]</a></sup>
           The stacked bar chart shows the cumulative number of interventions for each targeted country, with different colors representing different implementing jurisdictions.
           Clicking the year slider displays the trend of intervention counts over time, and selecting different implementing jurisdictions from the dropdown menu enables observation of the distribution across different implementing entities.
-        </p>
-
-        <p class="body-text"></p>
-          The chart shows that Russia and China are the most frequently targeted countries, followed by the United Arab Emirates, Hong Kong, China, India, and Singapore.
-          Among these interventions, United States and European Union account for a higher proportion.
-          This pattern reflects that interventions are primarily concentrated among a small number of countries, which subsequently impacts price fluctuations.
         </p>
         <div class="chart-bare">
           <iframe src="docs/rq3.html" scrolling="no" style="height:460px"></iframe>
         </div>
+
+        <p class="body-text">
+          The chart shows that Russia and China are the most frequently targeted countries, followed by the United Arab Emirates, Hong Kong, China, India, and Singapore.
+          Among these interventions, United States and European Union account for a higher proportion.
+          This pattern reflects that interventions are primarily concentrated among a small number of countries, which subsequently impacts price fluctuations.
+        </p>
       </section>
 
       <section class="section" id="rq4">
@@ -130,19 +179,19 @@
           Research Question 4: How does the chip price vary across AI milestones?
         </h2>
         <p class="body-text">
-          This visualization shows the changes in the chip price index over different time periods.
+          This visualization shows the changes in the chip price index over different time periods.<sup><a href="#ref-9">[9]</a></sup>
           The line chart tracks price trends from 2015 to 2025, with two vertical dashed lines labeling key milestones respectively at the OpenAI founding (2018) and the ChatGPT release (2022).
           Hovering over the line will present the specific price values corresponding to each point in time.
-        </p>
-
-        <p class="body-text">
-          From the chart, the price declined from 2015 to 2020, began to recover after 2021, and continued to rise after 2022, reaching its peak in 2025.
-          This implies that after the accelerated development of AI, the price of chips has shown a significant upward trend.
-          Among such price fluctuations, it is worth comparing the levels of investment in semiconductor manufacturing across different countries.
         </p>
         <div class="chart-bare">
           <iframe src="docs/rq4.html" scrolling="no" style="height:450px"></iframe>
         </div>
+
+        <p class="body-text">
+          From the chart, the price declined from 2015 to 2020, began to recover after 2021, and continued to rise after 2022, reaching its peak in 2025.
+          Although this upward trend aligns with the accelerated development of AI, it is difficult to establish a direct causal relationship from price alone.
+          Among such price fluctuations, it is worth comparing the levels of investment in semiconductor manufacturing across different countries.
+        </p>
       </section>
 
       <section class="section" id="rq5">
@@ -150,66 +199,66 @@
           Research Question 5: Which country invests the most in semiconductor manufacturing, and how is investment distributed across economic activities?
         </h2>
         <p class="body-text">
-          This visualization presents investment distribution across different countries in semiconductor manufacturing, and the allocation of investments across various economic activities.
+          This visualization presents investment distribution across different countries in semiconductor manufacturing, and the allocation of investments across various economic activities.<sup><a href="#ref-10">[10]</a></sup>
           The stacked bar chart at the top shows the total investment amounts for each country, with different colors representing different economic activities.
           The line chart below shows the investment trends for the top 5 countries from 2018 to 2022.
           Moving the year slider updates the current year, and the red dotted line moves to the corresponding year.
           Hovering over the chart provides details on specific countries and investment amounts, also highlighting the same country in both charts.
         </p>
+        <div class="chart-bare">
+          <iframe src="docs/rq5.html" scrolling="no" style="height:650px"></iframe>
+        </div>
 
         <p class="body-text">
           As shown in the chart, investment in the United States is much higher than in other countries and has shown a steady upward trend overall.
           China, South Korea, and Chinese Taipei have also seen growth, but on a smaller scale.
           The distribution of investment across the two economic activities also varies by country, making it worthwhile to explore their specific investment directions based on individual companies.
         </p>
-        <div class="chart-bare">
-          <iframe src="docs/rq5.html" scrolling="no" style="height:650px"></iframe>
-        </div>
       </section>
 
       <section class="section" id="rq6">
         <h2 class="rq-title">
-          Research Question 6: How do top semiconductor companies allocate investment between R&D and capital expenditure?
+          Research Question 6: How do top semiconductor companies allocate investment between R&amp;D and capital expenditure?
         </h2>
         <p class="body-text">
-          This visualization presents the investment distribution of the top 20 semiconductor companies in R&D and Capex.
-          For clarity, R&D refers to Research & Development, while capex focuses primarily on expenditures related to hardware manufacturing.
-          The bar chart at the top displays both investment metrics, with R&D on the left and capex on the right, where companies marked with an * appear in both top 20 lists.
-          The scatter plot below visualizes each company's relationship in R&D and Capex, with point size representing employee scale.
-          Clicking on either chart highlights the corresponding company.
-          Shift+click can compare multiple companies across both charts simultaneously.
+          This visualization presents the investment distribution of the top 20 semiconductor companies in R&amp;D and Capex.<sup><a href="#ref-11">[11]</a></sup>
+          For clarity, R&amp;D refers to Research &amp; Development, while capex focuses primarily on expenditures related to hardware manufacturing.
+          The bar chart at the top displays both investment metrics, with R&amp;D on the left and capex on the right, where companies marked with an * appear in both top 20 lists.
+          The scatter plot below visualizes each company's relationship in R&amp;D and Capex, with point size representing employee scale.
+          Clicking on either chart highlights the corresponding company, and Shift+click can compare multiple companies across both charts simultaneously.
+          Also, clicking a continent in the legend highlights all companies from that continent across both charts.
           Hovering over a point displays its specific values, and switching between investment types shows different top 20 rankings.
-        </p>
-
-        <p class="body-text">
-          These charts reveal that companies such as Amazon, Alphabet, and Microsoft invest more in R&D, while Samsung and TSMC lead in Capex.
-          Companies in the top-right quadrant feature both high R&D and high capex, reflecting heavy investment in both technological innovation and hardware expansion.
-          This distribution of investment across these two categories varies significantly among companies, raising questions about whether these investment strategies impact corporate profitability.
         </p>
         <div class="chart-bare">
           <iframe src="docs/rq6.html" scrolling="no" style="height:800px"></iframe>
         </div>
+
+        <p class="body-text">
+          These charts reveal that companies such as Amazon, Alphabet, and Microsoft invest more in R&amp;D, while Samsung and TSMC lead in Capex.
+          Companies in the top-right quadrant feature both high R&amp;D and high capex, reflecting heavy investment in both technological innovation and hardware expansion.
+          This distribution of investment across these two categories varies significantly among companies, raising questions about whether these investment strategies impact corporate profitability.
+        </p>
       </section>
 
       <section class="section" id="rq7">
         <h2 class="rq-title">
-          Research Question 7: How does R&D or capital investment intensity relate to profitability among semiconductor companies, and does this vary across industry sectors?
+          Research Question 7: How does R&amp;D or capital investment intensity relate to profitability among semiconductor companies, and does this vary across industry sectors?
         </h2>
         <p class="body-text">
-          This visualization explores the relationship between investment intensity and profitability among semiconductor companies.
-          The x-axis of the scatter plot represents R&D intensity on a log scale, while the y-axis represents profitability.
+          This visualization explores the relationship between investment intensity and profitability among semiconductor companies.<sup><a href="#ref-11">[11]</a></sup>
+          The x-axis of the scatter plot represents R&amp;D intensity on a log scale, while the y-axis represents profitability.
           Different colors correspond to different continents.
-          Clicking “Investment Type” to switch between R&D and Capex intensity, using the “Industry Sector” dropdown menu to filter by industry, and hovering over each data point to view specific company details.
-        </p>
-
-        <p class="body-text">
-          From this chart, most companies cluster within a range of moderate investment intensity between 5% and 20% and profitability ranging from near 0% to 20%.
-          When investment intensity is higher, the distribution of profitability becomes more spread out.
-          For example, INDIE Semiconductor, Inc. invests an R&D intensity of 80.8%, but its profitability is −76.5%, implying that high investment intensity does not necessarily correspond to high profitability, and there are also variations across different industries.
+          Clicking "Investment Type" to switch between R&amp;D and Capex intensity, using the "Industry Sector" dropdown menu to filter by industry, and hovering over each data point to view specific company details.
         </p>
         <div class="chart-bare">
           <iframe src="docs/rq7.html" scrolling="no" style="height:500px"></iframe>
         </div>
+
+        <p class="body-text">
+          From this chart, most companies cluster within a range of moderate investment intensity between 5% and 20% and profitability ranging from near 0% to 20%.
+          When investment intensity is higher, the distribution of profitability becomes more spread out.
+          For example, INDIE Semiconductor, Inc. invests an R&amp;D intensity of 80.8%, but its profitability is −76.5%, implying that high investment intensity does not necessarily correspond to high profitability, and there are also variations across different industries.
+        </p>
       </section>
 
       <section class="section conclusion-section">
@@ -222,20 +271,93 @@
         </p>
 
         <p class="body-text">
-          The United States leads in semiconductor investment, while companies vary widely in their prioritization of R&D or Capex.
+          The United States leads in semiconductor investment, while companies vary widely in their prioritization of R&amp;D or Capex.
           Some emphasize research and development, while others focus on expanding hardware manufacturing.
           Furthermore, higher investment intensity is not inherently correlated with greater profitability, revealing that increased spending is not guaranteed to yield better outcomes.
           In summary, the semiconductor industry has become increasingly concentrated and complex.
         </p>
       </section>
 
+      <section class="section" id="references">
+        <h2>References</h2>
+        <ol>
+          <li id="ref-1">
+            Streets, J. (2025). <em>Semiconductor chip materials: What and where to source them.</em> TechTarget.
+            <a href="https://www.techtarget.com/whatis/feature/Semiconductor-chip-materials-What-and-where-to-source-them" target="_blank" rel="noopener">
+              https://www.techtarget.com/whatis/feature/Semiconductor-chip-materials-What-and-where-to-source-them
+            </a>
+          </li>
+          <li id="ref-2">
+            U.S. Geological Survey – National Minerals Information Center. (2023). <em>Silicon Statistics and Information</em> (myb1-2023-simet-ERT_0.xlsx, Table 8).
+            <a href="https://www.usgs.gov/centers/national-minerals-information-center/silicon-statistics-and-information" target="_blank" rel="noopener">
+              https://www.usgs.gov/centers/national-minerals-information-center/silicon-statistics-and-information
+            </a>
+          </li>
+          <li id="ref-3">
+            U.S. Geological Survey – National Minerals Information Center. (2020). <em>Germanium Statistics and Information</em> (myb1-2023-germanium.xlsx, Table 1).
+            <a href="https://www.usgs.gov/centers/national-minerals-information-center/germanium-statistics-and-information" target="_blank" rel="noopener">
+              https://www.usgs.gov/centers/national-minerals-information-center/germanium-statistics-and-information
+            </a>
+          </li>
+          <li id="ref-4">
+            U.S. Geological Survey – National Minerals Information Center. (2023). <em>Gallium Statistics and Information</em> (myb1-2023-galli-ERT.xlsx, Table 7).
+            <a href="https://www.usgs.gov/centers/national-minerals-information-center/gallium-statistics-and-information" target="_blank" rel="noopener">
+              https://www.usgs.gov/centers/national-minerals-information-center/gallium-statistics-and-information
+            </a>
+          </li>
+          <li id="ref-5">
+            U.S. Geological Survey – National Minerals Information Center. (2023). <em>Arsenic Statistics and Information</em> (myb1-2023-arsen-ert.xlsx, Table 3).
+            <a href="https://www.usgs.gov/centers/national-minerals-information-center/arsenic-statistics-and-information" target="_blank" rel="noopener">
+              https://www.usgs.gov/centers/national-minerals-information-center/arsenic-statistics-and-information
+            </a>
+          </li>
+          <li id="ref-6">
+            U.S. Geological Survey. (2025). <em>Mineral Commodity Summaries 2025 Data Release</em> (mcs2025-simet_salient.csv, mcs2025-germa_salient.csv, mcs2025-galli_salient.csv, mcs2025-arsen_salient.csv).
+            <a href="https://www.sciencebase.gov/catalog/item/6793e234d34e72688d6b71e7" target="_blank" rel="noopener">
+              https://www.sciencebase.gov/catalog/item/6793e234d34e72688d6b71e7
+            </a>
+          </li>
+          <li id="ref-7">
+            Emerging Technology Observatory. (2025). <em>Advanced Semiconductor Supply Chain – ChipExplorer Dataset</em> (inputs.csv, providers.csv, provision.csv, sequence.csv, stages.csv).
+            <a href="https://eto.tech/dataset-docs/chipexplorer/" target="_blank" rel="noopener">
+              https://eto.tech/dataset-docs/chipexplorer/
+            </a>
+          </li>
+          <li id="ref-8">
+            Global Trade Alert. (2026). <em>Export Controls on Semiconductors.</em>
+            <a href="https://globaltradealert.org/threads/export-controls-on-semiconductors" target="_blank" rel="noopener">
+              https://globaltradealert.org/threads/export-controls-on-semiconductors
+            </a>
+          </li>
+          <li id="ref-9">
+            Federal Reserve Bank of St. Louis – FRED. (2026). <em>Producer Price Index by Industry: Semiconductor and Other Electronic Component Manufacturing</em> (PCU33443344).
+            <a href="https://fred.stlouisfed.org/series/PCU33443344" target="_blank" rel="noopener">
+              https://fred.stlouisfed.org/series/PCU33443344
+            </a>
+          </li>
+          <li id="ref-10">
+            OECD. (2024). <em>Analytical Business Enterprise R&amp;D by ISIC Rev.4 Industry</em> (ANBERD, C26/C261, 2018–2022).
+            <a href="https://data-explorer.oecd.org/vis?tm=ANBERD&pg=0&snb=1&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ANBERD%40DF_ANBERDi4&df[ag]=OECD.STI.STP&df[vs]=1.0&dq=TWN%2BFRA%2BDEU%2BJPN%2BKOR%2BGBR%2BUSA%2BCHN.A..C26%2BC261.XDC.V.&pd=2018%2C2022&to[TIME_PERIOD]=false" target="_blank" rel="noopener">
+              https://data-explorer.oecd.org (ANBERD, C26/C261, 2018–2022)
+            </a>
+          </li>
+          <li id="ref-11">
+            European Commission – Joint Research Centre. (2025). <em>The 2025 EU Industrial R&amp;D Investment Scoreboard – World 2000</em> (SB2025_World2000_2.xlsx).
+            <a href="https://iri.jrc.ec.europa.eu/scoreboard/2025-eu-industrial-rd-investment-scoreboard#field_data" target="_blank" rel="noopener">
+              https://iri.jrc.ec.europa.eu/scoreboard/2025-eu-industrial-rd-investment-scoreboard
+            </a>
+          </li>
+        </ol>
+      </section>
+
     </main>
 
     <script>
     function showRQ1(which, btn) {
-      document.getElementById('rq1-silicon').style.display = which === 'silicon' ? 'block' : 'none';
-      document.getElementById('rq1-other').style.display = which === 'other' ? 'block' : 'none';
-      document.querySelectorAll('.rq1-btn').forEach(b => b.classList.remove('active'));
+      ['silicon', 'germanium', 'gallium', 'arsenic'].forEach(function(id) {
+        document.getElementById('rq1-' + id).style.display = id === which ? 'block' : 'none';
+      });
+      document.querySelectorAll('.rq1-btn').forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
     }
     </script>
